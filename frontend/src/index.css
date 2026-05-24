@@ -1,0 +1,145 @@
+:root {
+  /* --- LIGHT THEME (Default) --- */
+  --bg-body: #f6f8fb;
+  --bg-card: #ffffff;
+  --bg-sidebar: rgba(255, 255, 255, 0.9);
+  
+  --text-main: #0f172a;
+  --text-muted: #64748b;
+  --text-inverse: #ffffff;
+  
+  --border-color: rgba(148, 163, 184, 0.35);
+  --input-bg: #ffffff;
+  
+  --shadow-soft: 0 10px 20px rgba(15, 23, 42, 0.06);
+  --shadow-card: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+
+  /* Brand Colors (Light) */
+  --primary: #0ea5e9;
+  --primary-hover: #0284c7;
+}
+
+/* --- DARK THEME OVERRIDES --- */
+[data-theme="dark"] {
+  /* Fond principal très sombre (Bleu nuit profond) */
+  --bg-body: #0f172a; 
+  /* Cartes légèrement plus claires pour le contraste */
+  --bg-card: #1e293b; 
+  --bg-sidebar: rgba(30, 41, 59, 0.95);
+  
+  /* Textes clairs */
+  --text-main: #f1f5f9;
+  --text-muted: #94a3b8;
+  --text-inverse: #0f172a;
+  
+  /* Bordures subtiles */
+  --border-color: rgba(148, 163, 184, 0.15);
+  --input-bg: #334155;
+  
+  /* Ombres plus douces en dark mode */
+  --shadow-soft: 0 10px 20px rgba(0, 0, 0, 0.2);
+  --shadow-card: 0 4px 6px -1px rgba(0, 0, 0, 0.2);
+
+  /* Brand Colors (Dark - slightly brighter for visibility) */
+  --primary: #38bdf8; 
+  --primary-hover: #0ea5e9;
+}
+
+/* --- GLOBAL STYLES --- */
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  
+  /* Application des variables */
+  background-color: var(--bg-body);
+  color: var(--text-main);
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+/* --- UTILITIES FOR COMPONENTS --- */
+
+/* Inputs */
+input, select, textarea {
+  background-color: var(--input-bg) !important;
+  color: var(--text-main) !important;
+  border-color: var(--border-color) !important;
+  transition: all 0.3s ease;
+}
+
+input::placeholder {
+  color: var(--text-muted) !important;
+}
+
+/* Cards & Containers */
+.admin-card, .user-card, .benef-card-v2, .assoc-card-v2, .donor-card, .demande-card-modern, .kpi-card, .chart-card-v2 {
+  background-color: var(--bg-card) !important;
+  border-color: var(--border-color) !important;
+  box-shadow: var(--shadow-card) !important;
+  color: var(--text-main) !important;
+  transition: background-color 0.3s ease, border-color 0.3s ease, transform 0.2s ease;
+}
+
+/* Sidebar */
+.admin-sidebar {
+  background-color: var(--bg-sidebar) !important;
+  border-right-color: var(--border-color) !important;
+  backdrop-filter: blur(10px);
+}
+
+/* Text Colors Override */
+h1, h2, h3, h4, h5, h6 {
+  color: var(--text-main) !important;
+}
+
+p, span, div {
+  color: var(--text-main);
+}
+
+.text-muted, .admin-subtitle, .admin-card__desc, .info-label, .fin-lbl, .assoc-label {
+  color: var(--text-muted) !important;
+}
+
+/* Buttons specific overrides if needed */
+.btn--ghost {
+  background-color: transparent !important;
+  border-color: var(--border-color) !important;
+  color: var(--text-main) !important;
+}
+
+/* Chart Tooltips */
+.chart-tooltip {
+  background-color: var(--bg-card) !important;
+  color: var(--text-main) !important;
+  border-color: var(--border-color) !important;
+}
+
+/* Scrollbar styling for dark mode */
+[data-theme="dark"] ::-webkit-scrollbar {
+  width: 8px;
+}
+[data-theme="dark"] ::-webkit-scrollbar-track {
+  background: #0f172a; 
+}
+[data-theme="dark"] ::-webkit-scrollbar-thumb {
+  background: #334155; 
+  border-radius: 4px;
+}
+[data-theme="dark"] ::-webkit-scrollbar-thumb:hover {
+  background: #475569; 
+}
+[dir="rtl"] {
+  font-family: 'Noto Sans Arabic', 'DM Sans', sans-serif;
+}
+
+[dir="rtl"] .db-grid,
+[dir="rtl"] .navbar-links {
+  direction: rtl;
+}

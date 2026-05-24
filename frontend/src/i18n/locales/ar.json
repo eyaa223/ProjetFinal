@@ -1,0 +1,1142 @@
+{
+  "nav": {
+    "home": "الرئيسية",
+    "about": "من نحن",
+    "contact": "اتصل بنا",
+    "demande": "طلب",
+    "demande_assoc": "طلب جمعية",
+    "demande_aide": "طلب مساعدة",
+    "login": "تسجيل الدخول",
+    "register": "تسجيل",
+    "dashboard": "لوحة التحكم",
+    "top_donors": "أفضل المتبرعين",
+    "notifications": "الإشعارات",
+    "no_notifications": "لا توجد إشعارات",
+    "logout": "تسجيل الخروج",
+    "search_placeholder": "البحث عن جمعية…",
+    "language": "اللغة",
+    "associations": "الجمعيات",
+    "beneficiaries": "المستفيدون",
+    "donors": "المتبرعون",
+    "profile": "الملف الشخصي",
+    "settings": "الإعدادات"
+  },
+  "stats": {
+    "beneficiaries": "المستفيدون المساعَدون",
+    "associations": "الجمعيات الشريكة",
+    "satisfaction": "رضا المتبرعين",
+    "collected": "دينار تونسي محصَّل"
+  },
+  "about": {
+    "hero": {
+      "badge": "منذ 2020 · أكثر من 50,000 حياة متأثرة",
+      "title_part1": "قصتنا:",
+      "title_part2": "عندما يلتقي الأمل بالعمل",
+      "subtitle": "وراء كل نقرة، حياة متغيرة. وراء كل تبرع، مستقبل يُعاد بناؤه. انضم إلى الحركة التي تعيد تعريف التضامن في تونس.",
+      "btn_donor": "كن متبرعاً",
+      "btn_actions": "اكتشف أعمالنا",
+      "trust_secure": "آمن 100%",
+      "trust_transparency": "شفافية تامة",
+      "trust_impact": "تأثير فوري",
+      "scroll_down": "الانتقال للأسفل"
+    },
+    "story": {
+      "tag": "أصلنا",
+      "title": "ميلاد <span>رؤية</span>",
+      "quote": "\"بدأ كل شيء بلقاء مؤثر: ياسمين، 9 سنوات، تتشارك وجبة واحدة يومياً مع والدتها في حي فقير بتونس.\"",
+      "para1": "في ذلك اليوم، أدركنا أن <strong>الكرم موجود في كل مكان</strong> — لكنه غالباً ما يفتقر إلى الجسور للوصول إلى المحتاجين.",
+      "para2": "وُلد Don'Act من هذا القناعة: <strong>كل شخص يستحق أن يُرى، ويُسمع، ويُدعم</strong>. نحن لسنا مجرد منصة للتبرعات — نحن نظام بيئي حي حيث تلتقي القلوب الكريمة بالأيدي الممدودة، بشفافية مطلقة.",
+      "stat_year": "سنة التأسيس",
+      "stat_partners": "200+",
+      "stat_beneficiaries": "50 ألف+",
+      "img_badge": "معاً، نكتب تاريخاً جديداً"
+    },
+    "values": {
+      "tag": "أسسنا",
+      "title": "قيمنا <span>اليومية</span>",
+      "subtitle": "أربعة ركائز توجه كل أعمالنا وتحدد التزامنا تجاهكم.",
+      "v1_title": "شفافية جذرية",
+      "v1_desc": "يتم تتبع كل دينار يتم التبرع به في الوقت الفعلي. ترى بالضبط كيف يغير فعلك حياة شخص ما.",
+      "v2_title": "الكرامة قبل كل شيء",
+      "v2_desc": "كل مستفيد هو شخص له قصة، وأحلام، وحق في الكرامة.",
+      "v3_title": "تأثير قابل للقياس",
+      "v3_desc": "نقيس التأثير البشري، وليس فقط الأرقام. نتائج ملموسة، وليس وعوداً.",
+      "v4_title": "مجتمع متضامن",
+      "v4_desc": "يشكل المتبرعون والجمعيات والمستفيدون دائرة فضيلة ينمو فيها الجميع معاً."
+    },
+    "contact": {
+      "tag": "انضم إلينا",
+      "title": "اكتب الفصل <span>القادم</span>",
+      "subtitle": "سواء كنت ترغب في التبرع، أو مشاركة قصتك، أو التطوع، أو مجرد طرح سؤال — نحن هنا للاستماع إليك.",
+      "write_title": "راسلنا",
+      "write_note": "رد خلال 24 ساعة",
+      "call_title": "اتصل بنا",
+      "call_note": "الإثنين-الجمعة: 9ص–6م",
+      "visit_title": "بيتنا",
+      "visit_note": "تعال لتحتسي القهوة!",
+      "social_title": "تابع قصص أملنا",
+      "social_sub": "لحظات أصيلة، تأثيرات حقيقية، مشاركة في الوقت الفعلي.",
+      "fb_label": "حيوات متغيرة",
+      "ig_label": "ابتسامات اليوم",
+      "tw_label": "طوارئ تضامنية",
+      "li_label": "تأثير مهني",
+      "join_caption": "كل لفتة تحسب. كل قصة تلهم."
+    },
+    "cta": {
+      "title": "هل أنت مستعد لإحداث <span>فرق؟</span>",
+      "subtitle": "خطوتك الأولى نحو تأثير حقيقي تبدأ هنا. انضم إلى الآلاف الذين اختاروا بالفعل التحرك.",
+      "btn": "ابدأ الآن",
+      "note": "دفع آمن · شفاف 100% · تأثير مضمون"
+    }
+  },
+  "home": {
+    "hero": {
+      "badge": "المنصة رقم 1 في تونس",
+      "title_line1": "امنح الأمل،",
+      "title_line2": "وغير حياة الآخرين.",
+      "subtitle": "انضم إلى المجتمع الذي يعيد تعريف التضامن. شفافية تامة، تأثير حقيقي، واتصال مباشر مع المحتاجين.",
+      "cta_donor": "كن متبرعاً",
+      "cta_assoc": "عرض الجمعيات",
+      "trust_secure": "دفع آمن",
+      "trust_transparent": "شفاف 100%",
+      "trust_impact": "تأثير مُتحقق منه",
+      "scroll_label": "اكتشف إحصائياتنا"
+    },
+    "stats": {
+      "beneficiaries": "مستفيد تم مساعدتهم",
+      "associations": "جمعية شريكة",
+      "satisfaction": "معدل الرضا",
+      "collected": "الأموال المجمعة (د.ت)"
+    },
+    "showcase": {
+      "img_alt": "مرحباً بكم في Don'Act",
+      "tag": "مهمتنا",
+      "title_line1": "أكثر من مجرد منصة،",
+      "title_line2": "نظام بيئي للتضامن.",
+      "desc": "نربط المتبرعين الكرماء مباشرة بالجمعيات الموثقة. لا مزيد من الوسطاء الغامضين: كل دينار يتم تتبعه، وكل عمل يتم قياسه.",
+      "cta": "اعرف المزيد عنا"
+    },
+    "why": {
+      "tag": "لماذا تختارنا",
+      "title": "فرق ",
+      "desc": "لقد أعدنا تصور عملية التبرع لجعلها أكثر أماناً وبساطة وإنسانية.",
+      "items": {
+        "transparency": {
+          "title": "شفافية تامة",
+          "desc": "تبع تبرعاتك في الوقت الفعلي. تعرف بالضبط أين يذهب أموالك وما هو التأثير الذي تولده."
+        },
+        "security": {
+          "title": "أمان قصوى",
+          "desc": "معاملاتك محمية بتشفير بمستوى بنكي. بياناتك خاصة وآمنة."
+        },
+        "connection": {
+          "title": "اتصال مباشر",
+          "desc": "أنشئ رابطاً إنسانياً مع المستفيدين. احصل على تحديثات وشاهد الابتسامة التي رسمتها."
+        },
+        "impact": {
+          "title": "تأثير قابل للقياس",
+          "desc": "تقارير مفصلة وأدلة ملموسة. نحول الكرم إلى نتائج ملموسة."
+        }
+      }
+    },
+    "cta": {
+      "title_line1": "هل أنت مستعد لتغيير",
+      "title_line2": "العالم اليوم؟",
+      "subtitle": "لا تدع المسافة أو الشك يوقفانك بعد الآن. لفتتك، مهما كانت صغيرة، يمكن أن تغير كل شيء لشخص ما.",
+      "cta_start": "ابدأ الآن",
+      "cta_assoc": "استكشف المشاريع",
+      "note": "تسجيل مجاني · بدون التزام · آمن"
+    },
+    "footer": {
+      "tagline": "تضامن الجيل الجديد."
+    }
+  },
+   "top": {
+    "title": "أفضل المتبرعين لهذا الشهر",
+    "subtitle": "أبطال الكرم الذين يصنعون الفرق",
+    "loading": "جاري تحميل الأبطال...",
+    "error": "تعذر تحميل أفضل المتبرعين 😔",
+    "empty_title": "لا يوجد متبرعون هذا الشهر",
+    "empty_sub": "عد قريباً لاكتشاف الأبطال الأوائل!",
+    "contenders_title": "والباقي...",
+    "stats_dons": "تبرعات",
+    "stats_avg": "متوسط"
+  },
+  "register": {
+    "visual_badge": "انضم إلى الحركة",
+    "visual_title_line1": "كن",
+    "visual_title_line2": "صانع تغيير",
+    "visual_desc": "أنشئ حسابك كمتبرع في ثوانٍ وابدأ في إحداث تأثير في الحياة اليوم.",
+    "benefit_tracking": "تتبع التبرعات في الوقت الفعلي",
+    "benefit_verified": "الوصول إلى الملفات الشخصية الموثقة",
+    "benefit_impact": "تأثير مباشر وشفاف",
+    
+    "form_title": "إنشاء حساب",
+    "form_sub": "ابدأ رحلتك التضامنية.",
+    
+    "label_name": "الاسم الكامل",
+    "placeholder_name": "محمد التونسي",
+    
+    "label_email": "البريد الإلكتروني",
+    "placeholder_email": "mohamed@example.com",
+    
+    "label_password": "كلمة المرور",
+    "placeholder_password": "••••••••",
+    "hint_password": "يجب أن تتكون من 8 أحرف على الأقل",
+    
+    "btn_submit": "تسجيل",
+    "btn_loading": "جاري الإنشاء...",
+     
+    "footer_text": "هل أنت عضو بالفعل؟",
+    "footer_link": "تسجيل الدخول"
+  },
+  "demande": {
+    "hero_badge": "مساحة المستفيد",
+    "title": "طلب مساعدة",
+    "err_fetch_assoc": "فشل في تحميل الجمعيات",
+    
+    "label_nom": "الاسم العائلي",
+    "label_prenom": "الاسم الشخصي",
+    "label_email": "البريد الإلكتروني",
+    "label_telephone": "الهاتف",
+    "label_cin": "رقم بطاقة الهوية",
+    "label_date_naissance": "تاريخ الميلاد",
+    "label_adresse": "العنوان الكامل",
+    "label_genre": "الجنس",
+    "label_situation": "الحالة العائلية",
+    "label_montant": "المبلغ المطلوب جمعها (دينار تونسي)",
+    "label_association": "الجمعية المستفيدة",
+    "label_description": "وصف حالتك",
+    
+    "placeholder_select": "اختر...",
+    "placeholder_situation": "مثال: أسرة أحادية الوالدين، 3 أطفال...",
+    "placeholder_description": "اشرح باختصار حالتك واحتياجاتك...",
+    "help_description": "20 حرفاً كحد أدنى. كن واضحاً وصادقاً.",
+    
+    "genre_homme": "رجل",
+    "genre_femme": "امرأة",
+    
+    "section_docs": "الوثائق المطلوبة",
+    "doc_identite_label": "إثبات الحالة",
+    "doc_identite_hint": "PDF, JPG, PNG • أقصى حجم 5 ميجا بايت • إلزامي",
+    "doc_autre_label": "وثيقة إضافية",
+    "doc_autre_hint": "PDF, JPG, PNG • أقصى حجم 5 ميجا بايت • اختياري",
+    "optional_label": "اختياري",
+    
+    "btn_help": "تحتاج مساعدة؟",
+    "btn_submit": "إرسال طلبي",
+    "btn_loading": "جاري الإرسال...",
+    
+    "err_nom": "يرجى إدخال الاسم العائلي.",
+    "err_prenom": "يرجى إدخال الاسم الشخصي.",
+    "err_email": "يرجى إدخال البريد الإلكتروني.",
+    "err_telephone": "يرجى إدخال رقم الهاتف.",
+    "err_cin": "يرجى إدخال رقم بطاقة الهوية.",
+    "err_date_naissance": "يرجى إدخال تاريخ الميلاد.",
+    "err_adresse": "يرجى إدخال العنوان.",
+    "err_genre": "يرجى اختيار الجنس.",
+    "err_situation": "يرجى إدخال الحالة العائلية.",
+    "err_montant": "يرجى إدخال مبلغ صالح.",
+    "err_association": "يرجى اختيار جمعية.",
+    "err_description": "يجب أن يحتوي الوصف على 20 حرفاً على الأقل.",
+    "err_doc_identite": "وثيقة إثبات الحالة إلزامية.",
+    
+    "error_title": "النموذج غير مكتمل",
+    "success_title": "تم إرسال الطلب ✓",
+    "success_text": "تم استلام طلبك. ستتواصل معك الجمعية قريباً.",
+
+    "help": {
+      "modal_title": "الوثائق المطلوبة — مستفيد",
+      "examples_label": "أمثلة",
+      
+      "doc1_title": "📄 إثبات الحالة",
+      "doc1_desc": "يجب على المستفيد تقديم وثيقة تبرر وضعه الحالي للسماح بالتحقق من طلب المساعدة.",
+      "doc1_example1": "شهادة طبية",
+      "doc1_example2": "إثبات الدخل",
+      "doc1_example3": "شهادة الضمان الاجتماعي",
+      "doc1_example4": "وثيقة إدارية رسمية",
+      "doc1_note": "هذه الوثيقة إلزامية للتحقق من الطلب.",
+      
+      "doc2_title": "📎 وثيقة إضافية (اختيارية)",
+      "doc2_desc": "يمكن للمستفيد إضافة أي وثيقة تكميلية يمكن أن تدعم طلبه.",
+      "doc2_example1": "وصفة طبية",
+      "doc2_example2": "فاتورة",
+      "doc2_example3": "تقرير طبي",
+      "doc2_example4": "رسالة توضيحية",
+      "doc2_example5": "أي وثيقة داعمة أخرى مفيدة",
+      "doc2_note": "هذه الوثيقة اختيارية ولكنها قد تساعد في فهم أفضل لوضع المستفيد.",
+      
+      "general_note_title": "⚠️ تذكير مهم",
+      "general_note_item1": "يجب أن تكون الوثائق مقروءة وكاملة",
+      "general_note_item2": "يجب أن تتطابق المعلومات مع ما ورد في النموذج",
+      "general_note_item3": "الملفات التالفة أو غير المقروءة تؤدي إلى رفض الطلب"
+    }
+  },
+  "theme": {
+    "light": "فاتح",
+    "dark": "داكن"
+  },
+    "validation": {
+    "name_required": "يرجى إدخال اسم الجمعية.",
+    "email_invalid": "البريد الإلكتروني غير صالح.",
+    "phone_invalid": "رقم الهاتف غير صالح.",
+    "manager_required": "يرجى إدخال اسم المسؤول.",
+    "address_required": "يرجى إدخال العنوان.",
+    "category_required": "يرجى اختيار فئة.",
+    "description_short": "يجب أن يحتوي الوصف على 20 حرفاً على الأقل.",
+    "doc_required": "يرجى إضافة: {doc}."
+  },
+  "form": {
+    "incomplete_title": "النموذج غير مكتمل",
+    "success_title": "تم إرسال الطلب",
+    "success_text": "تم إرسال طلبك بنجاح. سنتواصل معك بعد المراجعة."
+  },
+   "beneficiaryRequest": {
+    "help": {
+      "modal_title": "الوثائق المطلوبة — مستفيد",
+      "examples_label": "أمثلة",
+      
+      "doc1_title": "📄 إثبات الحالة",
+      "doc1_desc": "يجب على المستفيد تقديم وثيقة تبرر وضعه الحالي للسماح بالتحقق من طلب المساعدة.",
+      "doc1_example1": "شهادة طبية",
+      "doc1_example2": "إثبات الدخل",
+      "doc1_example3": "شهادة الضمان الاجتماعي",
+      "doc1_example4": "وثيقة إدارية رسمية",
+      "doc1_note": "هذه الوثيقة إلزامية للتحقق من الطلب.",
+      
+      "doc2_title": "📎 وثيقة إضافية (اختيارية)",
+      "doc2_desc": "يمكن للمستفيد إضافة أي وثيقة تكميلية يمكن أن تدعم طلبه.",
+      "doc2_example1": "وصفة طبية",
+      "doc2_example2": "فاتورة",
+      "doc2_example3": "تقرير طبي",
+      "doc2_example4": "رسالة توضيحية",
+      "doc2_example5": "أي وثيقة داعمة أخرى مفيدة",
+      "doc2_note": "هذه الوثيقة اختيارية ولكنها قد تساعد في فهم أفضل لوضع المستفيد.",
+      
+      "general_note_title": "⚠️ تذكير مهم",
+      "general_note_item1": "يجب أن تكون الوثائق مقروءة وكاملة",
+      "general_note_item2": "يجب أن تتطابق المعلومات مع ما ورد في النموذج",
+      "general_note_item3": "الملفات التالفة أو غير المقروءة تؤدي إلى رفض الطلب"
+    }
+  },
+  "associationRequest": {
+    "hero_badge": "مساحة الجمعيات",
+    "title": "طلب التسجيل",
+    "subtitle": "املأ هذا النموذج لتقديم جمعيتك للمراجعة.",
+    "progress_label": "تقدم النموذج",
+    "step_1": "الهوية",
+    "step_2": "الوثائق",
+    "step_3": "التحقق",
+    
+    "section_identity": "هوية الجمعية",
+    "section_docs": "الوثائق المطلوبة",
+    
+    "label_name": "اسم الجمعية",
+    "placeholder_name": "مثال: جمعية الأمل",
+    "label_email": "البريد الإلكتروني الرسمي",
+    "placeholder_email": "contact@association.org",
+    "label_phone": "الهاتف",
+    "placeholder_phone": "+216 XX XXX XXX",
+    "label_manager": "المسؤول القانوني",
+    "placeholder_manager": "الاسم واللقب للمسؤول",
+    "label_address": "عنوان المقر",
+    "placeholder_address": "العنوان الكامل مع الرمز البريدي",
+    "label_category": "فئة النشاط",
+    "placeholder_category": "اختر فئة",
+    "help_category": "اختر الفئة الرئيسية لأنشطتكم.",
+    "label_description": "وصف الأنشطة",
+    "placeholder_description": "صف باختصار مهمتكم وأنشطتكم والمستفيدين...",
+    "help_description": "20 حرفاً كحد أدنى. كن واضحاً وموجزاً.",
+    "counter_desc": " حرف",
+    "label_logo": "شعار الجمعية",
+    "btn_upload_logo": "رفع شعار",
+    "btn_change_logo": "تغيير الشعار",
+    "logo_hint": "PNG, JPG • أقصى حجم 5 ميجا بايت",
+    
+    "doc_statut": "النظام الأساسي",
+    "doc_autorisation": "الرخصة القانونية",
+    "doc_registre": "السجل / الـRIB",
+    "doc_cin": "بطاقة هوية المسؤول",
+    
+    "docs_summary_complete": "✓ جميع الوثائق مضافة",
+    "docs_summary_missing": "ناقص {count} وثيقة(وثائق)",
+    "docs_hint": "الصيغ المقبولة: PDF, JPG, PNG • أقصى حجم 5 ميجا بايت لكل ملف",
+    "file_hint": "PDF, JPG, PNG • أقصى حجم 5 ميجا بايت",
+    "btn_select_file": "اختر ملفاً",
+    "btn_modify_file": "تعديل",
+    
+    "btn_help": "تحتاج مساعدة؟",
+    "btn_cancel": "إلغاء",
+    "btn_loading": "جاري الإرسال...",
+    "btn_submit": "إرسال الطلب",
+    
+    "privacy_text": "بياناتك محمية. راجع",
+    "privacy_link": "سياسة الخصوصية",
+
+    "help": {
+      "modal_title": "الوثائق المطلوبة — جمعية",
+      "contains_label": "يحتوي على",
+      
+      "doc1_title": "1. النظام الأساسي للجمعية",
+      "doc1_desc": "هذا الوثيقة تمثل بطاقة الهوية الرسمية للجمعية.",
+      "doc1_item1": "اسم الجمعية",
+      "doc1_item2": "الغرض الاجتماعي (مثال: المساعدات الإنسانية، الأعمال الخيرية)",
+      "doc1_item3": "تاريخ التأسيس",
+      "doc1_item4": "عنوان المقر",
+      "doc1_item5": "طريقة التسيير (مكتب مديري / مجلس إدارة)",
+      "doc1_note": "يُستخدم لتحديد هوية الجمعية وهيكلها التنظيمي الداخلي.",
+      
+      "doc2_title": "2. الرخصة القانونية / وصل الإيداع",
+      "doc2_desc": "وثيقة رسمية صادرة عن سلطة مختصة.",
+      "doc2_item1": "رقم رخصة فريد",
+      "doc2_item2": "اسم السلطة المصدرة",
+      "doc2_item3": "تاريخ الإصدار",
+      "doc2_note": "يثبت أن الجمعية معترف بها قانونياً ومخوَّلة لمزاولة نشاطها.",
+      
+      "doc3_title": "3. كشف الهوية البنكية (RIB)",
+      "doc3_desc": "الوثيقة البنكية الخاصة بالجمعية.",
+      "doc3_item1": "اسم البنك",
+      "doc3_item2": "صاحب الحساب (الجمعية)",
+      "doc3_item3": "رقم الـIBAN",
+      "doc3_item4": "رمز الـBIC",
+      "doc3_note": "يُستخدم لاستقبال التبرعات والتمويلات أو المدفوعات.",
+      "doc3_warning": "بدون RIB، لا يمكن إجراء أي معاملة مالية.",
+      
+      "doc4_title": "4. قائمة أعضاء المكتب المديري",
+      "doc4_desc": "هذه الوثيقة تعرض المسؤولين الرسميين عن الجمعية.",
+      "doc4_item1": "الرئيس",
+      "doc4_item2": "الأمين العام",
+      "doc4_item3": "الخازن",
+      "doc4_note": "تُتيح معرفة من يدير ويؤطر الجمعية.",
+      "doc4_warning": "التوقيعات تؤكد المسؤولية القانونية للأعضاء.",
+      
+      "general_note_title": "ملاحظة هامة عامة",
+      "general_note_intro": "يجب أن تكون جميع الوثائق:",
+      "general_note_item1": "كاملة وقابلة للقراءة",
+      "general_note_item2": "مملوءة بشكل صحيح",
+      "general_note_item3": "متوافقة مع معلومات الجمعية",
+      "general_note_conclusion": "الوثائق الناقصة قد تؤدي إلى رفض الطلب."
+    }
+  },
+  "associations": {
+    "header_title": "جمعياتنا الشريكة",
+    "header_subtitle_singular": "اكتشف الجمعية الملتزمة بالتأثير الاجتماعي الإيجابي.",
+    "header_subtitle_plural": "اكتشف الجمعيات الملتزمة بالتأثير الاجتماعي الإيجابي.",
+    
+    "search_placeholder": "البحث عن جمعية...",
+    "btn_reset": "إعادة تعيين",
+    
+    "filter_btn": "تصفية",
+    "filter_reset": "إعادة تعيين",
+    "filter_title": "تصفية حسب الفئة",
+    "filter_count_singular": "{count} محدد",
+    "filter_count_plural": "{count} محددة",
+    "loading_categories": "جاري التحميل...",
+    
+    "empty_title": "لم يتم العثور على جمعيات",
+    "empty_sub": "حاول تعديل معايير البحث أو إعادة تعيين المرشحات.",
+    "empty_btn": "إعادة تعيين المرشحات",
+    
+    "card_no_desc": "لا يوجد وصف متاح في الوقت الحالي.",
+    "card_rank_label": "الترتيب",
+    "card_score_label": "النتيجة",
+    "card_beneficiaries": "مستفيد",
+    "card_cta": "عرض التفاصيل"
+  },
+  "associationDetails": {
+    "btn_back": "الجمعيات",
+    "hero_verified": "جمعية موثقة",
+    "hero_status_active": "● نشطة",
+    "hero_status_inactive": "● غير نشطة",
+    "hero_btn_contact": "اتصل",
+    "hero_btn_call": "هاتف",
+    "stat_members": "أعضاء",
+    "stat_donations": "التبرعات المستلمة",
+    "stat_contributions": "الاشتراكات محدثة",
+    "error_loading": "تعذر تحميل تفاصيل الجمعية.",
+    "tab_infos": "معلومات",
+    "tab_description": "الوصف",
+    "tab_contributions": "الاشتراكات",
+    
+    "section_contact": "بيانات الاتصال",
+    "label_email": "البريد الإلكتروني",
+    "label_phone": "الهاتف",
+    "label_address": "العنوان",
+    "label_category": "الفئة",
+    "label_member_since": "عضو منذ",
+    
+    "section_about": "حول",
+    "no_description": "لا يوجد وصف متاح لهذه الجمعية.",
+    
+    "section_progress": "تقدم 2025",
+    "progress_label": "أعضاء محدثون",
+    
+    "section_recent_donations": "التبرعات الأخيرة",
+    
+    "sidebar_share": "مشاركة",
+    "sidebar_qr_label": "امسح للوصول إلى الملف الشخصي",
+    "btn_copy_link": "نسخ الرابط",
+    "btn_copied": "تم نسخ الرابط!",
+    
+    "sidebar_status": "الحالة",
+    "status_activity": "النشاط",
+    "status_verification": "التحقق",
+    "status_verified": "موثق",
+    "status_registered_on": "مسجل في",
+    
+    "sidebar_quick_contact": "اتصال سريع"
+  },
+  "dashboardAssoc": {
+    "sidebar_profile": "الملف الشخصي",
+    "sidebar_beneficiaries": "المستفيدون",
+    "sidebar_requests": "الطلبات",
+    "sidebar_donors": "التبرعات المستلمة",
+    "sidebar_transparency": "الشفافية",
+    "sidebar_security": "الأمان",
+    "sidebar_card": "بطاقتي",
+    "sidebar_history": "السجل",
+    "sidebar_logout": "تسجيل الخروج",
+    "tab_profile_title": "ملفي الشخصي",
+    "tab_profile_sub": "إدارة معلومات جمعيتك",
+    "btn_edit": "تعديل",
+    "ia_rank": "ترتيب الذكاء الاصطناعي",
+    "ia_score": "نقاط الذكاء الاصطناعي",
+    "ia_eval": "التقييم",
+    "ia_class": "تصنيف الذكاء الاصطناعي:",
+    "section_contact_info": "معلومات الاتصال",
+    "section_contact_sub": "عدل واحفظ معلوماتك",
+    "label_email": "البريد الإلكتروني",
+    "label_phone": "الهاتف",
+    "label_category": "الفئة",
+    "label_address": "العنوان",
+    "label_name": "اسم الجمعية",
+    "label_desc": "الوصف",
+    "placeholder_phone": "مثال: +216 XX XXX XXX",
+    "placeholder_category": "مثال: إنساني",
+    "placeholder_address": "مثال: تونس، تونس",
+    "placeholder_name": "اسم جمعيتك",
+    "placeholder_desc": "صف جمعيتك...",
+    "btn_save": "حفظ التغييرات",
+    "btn_saving": "جاري الحفظ...",
+    "alert_profile_saved": "تم تحديث الملف الشخصي!",
+
+    "label_date_naissance": "تاريخ الميلاد",
+    "label_situation": "الحالة العائلية",
+    "label_association": "الجمعية",
+    "label_description": "الوصف",
+    "label_status": "الحالة",
+    "status_active": "نشط",
+    "status_inactive": "غير نشط",
+    "status_pending": "قيد الانتظار",
+    "label_montant": "المبلغ المطلوب جمعه (د.ت)",
+    "label_remaining": "المبلغ المتبقي (د.ت)",
+    "label_genre": "الجنس",
+    "label_cin": "رقم الهوية",
+    "label_email": "البريد الإلكتروني",
+    "section_docs": "الوثائق",
+
+    "tab_card_title": "بطاقتي",
+    "tab_card_sub": "المعلومات العامة لجمعيتك + رمز الاستجابة السريعة.",
+    "qr_scan": "امسح لرؤية التفاصيل",
+    "qr_sub": "الملف العام للجمعية",
+    "card_footer": "بطاقة الجمعية",
+
+    "tab_password_title": "أمان الحساب",
+    "tab_password_sub": "غير كلمة المرور لحماية بيانات جمعيتك.",
+    "pwd_old": "كلمة المرور القديمة",
+    "pwd_new": "كلمة المرور الجديدة",
+    "pwd_confirm": "تأكيد كلمة المرور",
+    "btn_update_pwd": "تحديث",
+    "alert_pwd_success": "تم تغيير كلمة المرور بنجاح",
+    "alert_pwd_mismatch": "كلمات المرور غير متطابقة",
+
+    "tab_donors_title": "المتبرعون",
+    "tab_donors_sub": "عرض قائمة التبرعات المقدمة لمستفيديك.",
+    "donor_total_collected": "المجموع المحصل",
+    "donor_num_donations": "عدد التبرعات",
+    "donor_details_title": "تفاصيل التبرعات",
+    "empty_donors": "لم يتم العثور على متبرعين.",
+
+    "tab_requests_title": "الطلبات",
+    "tab_requests_sub": "إدارة طلبات المستفيدين: قبول أو رفض.",
+    "req_accept": "قبول",
+    "req_reject": "رفض",
+    "req_confirm_accept": "هل تريد حقاً قبول هذا الطلب؟",
+    "req_confirm_reject": "هل تريد حقاً رفض هذا الطلب؟",
+    "empty_requests": "لا توجد طلبات.",
+    "doc_identity": "الهوية",
+    "doc_other": "آخر",
+
+    "tab_beneficiaries_title": "المستفيدون",
+    "tab_beneficiaries_sub": "إدارة المستفيدين: تتبع المبالغ والنسب المئوية.",
+    "benef_to_collect": "المطلوب جمعه",
+    "benef_remaining": "المتبقي",
+    "btn_update_pct": "تحديث النسبة المئوية",
+    "btn_validate": "تأكيد",
+    "alert_pct_updated": "تم تحديث النسبة المئوية!",
+    "empty_beneficiaries": "لا يوجد مستفيدون.",
+
+    "tab_transparency_title": "الشفافية",
+    "tab_transparency_sub": "تصور إحصائيات التأثير والتحصيل الخاصة بك.",
+    "btn_export": "تصدير البيانات",
+    "stat_donors": "المتبرعون",
+    "stat_donors_hint": "إجمالي عدد المتبرعين",
+    "stat_beneficiaries": "المستفيدون",
+    "stat_beneficiaries_hint": "المستفيدون الذين تم مساعدتهم",
+    "stat_requests": "الطلبات",
+    "stat_requests_hint": "{count} قيد الانتظار",
+    "stat_donations_received": "التبرعات المستلمة",
+    "stat_donations_hint": "إجمالي التبرعات",
+    
+    "chart_monthly": "التبرعات المستلمة شهرياً",
+    "chart_monthly_sub": "المبلغ الإجمالي + عدد التبرعات (شهرياً)",
+    "chart_yearly": "التبرعات المستلمة سنوياً",
+    "chart_yearly_sub": "عرض سنوي (المبالغ + العدد)",
+    "legend_amount": "المبلغ",
+    "legend_count": "التبرعات",
+    "no_data_monthly": "لا توجد بيانات شهرية متاحة.",
+    "no_data_yearly": "لا توجد بيانات سنوية متاحة.",
+    
+    "benef_summary_title": "ملخص المستفيدين",
+    "benef_summary_sub": "التتبع المالي العالمي",
+    "benef_total_target": "إجمالي الهدف",
+    "benef_total_collected": "إجمالي المحصل (تقديري)",
+    "benef_total_remaining": "إجمالي المتبقي",
+    
+    "transparency_note_title": "التزام الشفافية",
+    "transparency_note_text": "تابع تطور نشاطك (التبرعات، الطلبات، المستفيدين) بشكل واضح وقابل للتحقق. نشجع الجمعيات على مشاركة هذه الإحصائيات بانتظام لتعزيز الثقة مع متبرعيها ومستفيديها.",
+
+    "tab_history_title": "السجل",
+    "tab_history_sub": "المستفيدون الذين أكملوا عملية التحصيل.",
+    "history_completed": "مكتمل",
+    "history_empty": "لم يكمل أي مستفيد عملية التحصيل.",
+    "th_beneficiary": "المستفيد",
+    "th_goal": "الهدف",
+    "th_remaining": "المتبقي",
+    "th_status": "الحالة",
+    "status_completed": "مكتمل"
+    
+  },
+"common": {
+    "search_placeholder": "بحث...",
+    "beneficiary_space": "فضاء المستفيد"  },
+  "common": {
+    "beneficiary_space": "فضاء المستفيد",
+    "donor_space": "فضاء المتبرع",
+    "lawyer_panel": "فضاء المحامي",
+    "association_panel": "فضاء الجمعية",
+    "admin_panel": "فضاء الإدارة",
+    "confirm_accept": "تأكيد القبول",
+    "confirm_refuse": "تأكيد الرفض",
+    "alert_success": "تمت العملية بنجاح",
+    "alert_error": "حدث خطأ",
+    "back": "العودة إلى القائمة",
+    "are_you_sure": "هل أنت متأكد من أنك تريد",
+    "error_update": "حدث خطأ أثناء التحديث.",
+    "error_fetch": "حدث خطأ أثناء جلب البيانات.",
+    "error_loading": "جاري التحميل...",
+    "error_title": "خطأ",
+    "success_title": "نجاح",
+     "close": "إغلاق",
+    "loading": "جاري التحميل...",
+    "error_title": "خطأ",
+    "server_error": "خطأ في الخادم",
+    "file_too_large_title": "الملف كبير جداً",
+    "file_too_large_text": "الحد الأقصى 5 ميجا بايت لكل ملف."
+  },
+  "dashboardLawyer": {
+    "sidebar_requests": "الطلبات",
+    "sidebar_security": "الأمان",
+    "sidebar_logout": "تسجيل الخروج",
+    
+    "tab_requests_title": "الطلبات القانونية",
+    "tab_requests_sub": "تحليل وتصنيف طلبات الجمعيات.",
+    
+    "stat_pending": "قيد الانتظار",
+    "stat_pending_hint": "للمعالجة",
+    "stat_legal": "قانونية",
+    "stat_legal_hint": "مصادق عليها",
+    "stat_illegal": "غير قانونية",
+    "stat_illegal_hint": "مرفوضة",
+    "stat_total": "المجموع",
+    "stat_total_hint": "الكل",
+    
+    "filter_pending": "قيد الانتظار",
+    "filter_legal": "قانونية",
+    "filter_illegal": "غير قانونية",
+    "filter_all": "الكل",
+    
+    "search_placeholder": "بحث عن جمعية أو بريد إلكتروني...",
+    
+    "empty_state": "لا توجد طلبات تطابق معاييرك.",
+    
+    "btn_legal": "قانونية",
+    "btn_illegal": "غير قانونية",
+    "btn_docs": "وثائق",
+    
+    "docs_header": "الوثائق المرفقة",
+    "doc_statut": "الحالة",
+    "doc_autorisation": "التصريح",
+    "doc_registre": "السجل",
+    "doc_cin": "بطاقة الهوية",
+    
+    "pwd_title": "أمان الحساب",
+    "pwd_sub": "غير كلمة المرور بانتظام لتأمين وصولك.",
+    "pwd_old": "كلمة المرور القديمة",
+    "pwd_new": "كلمة المرور الجديدة",
+    "pwd_confirm": "تأكيد كلمة المرور الجديدة",
+    "pwd_error_required": "جميع الحقول مطلوبة",
+    "pwd_error_mismatch": "كلمات المرور الجديدة غير متطابقة",
+    "pwd_error_length": "يجب أن تتكون كلمة المرور الجديدة من 6 أحرف على الأقل",
+    "pwd_error_same": "يجب أن تكون كلمة المرور الجديدة مختلفة عن القديمة",
+    "pwd_success": "تم تغيير كلمة المرور بنجاح",
+    "pwd_btn_update": "تحديث",
+    "pwd_btn_loading": "جاري المعالجة..."
+  },
+   "dashboardDonor": {
+    "sidebar_profile": "الملف الشخصي",
+    "sidebar_donations": "تبرعاتي",
+    "sidebar_donate": "تقديم تبرع",
+    "sidebar_comments": "تعليقاتي",
+    "sidebar_certificate": "الشهادة",
+    "sidebar_card": "بطاقتي",
+    "sidebar_security": "الأمان",
+    "sidebar_back_assoc": "عودة للجمعيات",
+    "sidebar_logout": "تسجيل الخروج",
+    "label_status": "الحالة",
+    "status_active": "نشط",
+    "tab_profile_title": "ملفي الشخصي",
+    "tab_profile_sub": "إدارة معلوماتك الشخصية",
+    "btn_edit": "✏️ تعديل",
+    "label_email": "البريد الإلكتروني",
+    "label_name": "الاسم",
+    "label_bank": "رقم الحساب البنكي",
+    "placeholder_bank": "XXXX XXXX XXXX XXXX",
+    "btn_save": "حفظ",
+    "btn_update_card": "تحديث البطاقة",
+    "btn_saving": "جاري الحفظ...",
+
+    "tab_password_title": "أمان الحساب",
+    "tab_password_sub": "غير كلمة المرور الخاصة بك.",
+    "pwd_old": "كلمة المرور القديمة",
+    "pwd_new": "كلمة المرور الجديدة",
+    "pwd_confirm": "تأكيد كلمة المرور الجديدة",
+    "btn_update_pwd": "تحديث",
+    "alert_pwd_success": "✅ تم تغيير كلمة المرور بنجاح",
+    
+    "tab_donations_title": "تبرعاتي",
+    "tab_donations_sub": "السجل الكامل لمساهماتك",
+    "btn_export_csv": "تصدير CSV",
+    "stat_total_given": "إجمالي الممنوح",
+    "stat_count": "التبرعات المقدمة",
+    "stat_avg": "المتوسط / للتبرع",
+    "history_title": "السجل",
+    "history_hint": "— انقر على صف للتفاصيل",
+    "search_placeholder": "بحث...",
+    "empty_donations_title": "لا توجد تبرعات حتى الآن",
+    "empty_donations_text": "اكتشف الجمعيات واصنع الفرق.",
+    "btn_make_donation": "تقديم تبرع",
+    "status_completed": "مكتمل",
+    "status_pending": "قيد الانتظار",
+    "don_count": "تبرع(ات)",
+
+    "section_personal_info": "المعلومات الشخصية",
+    "section_personal_sub": "إدارة معلوماتك وتتبع تأثيرك",
+    "section_donation_history": "تاريخ التبرعات",
+
+    "tab_messages_title": "تعليقاتي",
+    "tab_messages_sub": "الرسائل المتروكة مع تبرعاتك",
+    "empty_messages_title": "لا توجد تعليقات",
+    "empty_messages_text": "أضف كلمة تشجيع في تبرعك القادم.",
+    "btn_msg_donate": "تبرع برسالة",
+    "msg_count": "رسالة(رسائل)",
+    "btn_save_msg": "حفظ",
+    "btn_cancel": "إلغاء",
+
+    "tab_cert_title": "شهاتي",
+    "tab_cert_sub": "عرض وتنزيل شهادة التبرع الخاصة بك.",
+    "cert_loading": "جاري إنشاء الشهادة...",
+    "cert_unavailable": "الشهادة غير متاحة",
+    "cert_none_title": "لا توجد شهادة متاحة",
+    "cert_none_text": "قم بأول تبرع لك للحصول على شهادتك الرسمية.",
+    "btn_retry": "إعادة المحاولة",
+    "btn_download_pdf": "تنزيل PDF",
+    "btn_first_don": "تقديم أول تبرع لي",
+
+    "tab_card_role": "متبرع موثق",
+    "card_stat_total": "إجمالي الممنوح",
+    "card_stat_count": "التبرعات المقدمة",
+    "card_stat_times": "مرات",
+    "badge_new": "🥉 جديد",
+    "badge_active": "🥈 نشط",
+    "badge_generous": "🥇 كريم",
+    "card_footer": "بطاقة المتبرع",
+
+    "tab_assoc_title": "الجمعيات",
+    "tab_assoc_sub": "اختر قضية واصنع الفرق",
+    "assoc_search_ph": "البحث عن جمعية...",
+    "assoc_empty": "لم يتم العثور على جمعيات",
+    "assoc_no_desc": "لا يوجد وصف.",
+    "assoc_cta": "عرض المستفيدين",
+
+    "tab_benef_title_prefix": "المستفيدون - ",
+    "tab_benef_available": "مستفيد(ين) متاح(ين)",
+    "benef_search_ph": "البحث عن مستفيد...",
+    "benef_empty": "لا يوجد مستفيدون متاحون في الوقت الحالي.",
+    "benef_btn_back": "عودة",
+    "benef_collected": "تم جمعه:",
+    "benef_target": "الهدف:",
+    "benef_to_collect": "المطلوب جمعه",
+    "benef_remaining": "المتبقي",
+    "btn_close_form": "✕ إغلاق النموذج",
+    "btn_donate": " تقديم تبرع",
+    
+    "don_panel_idle": "اختر مستفيداً لتقديم تبرع",
+    "don_form_title": "تبرع لـ",
+    "don_progress": "التقدم",
+    "don_remaining": "متبقي",
+    "don_label_quick": "مبلغ سريع",
+    "don_label_custom": "مبلغ مخصص",
+    "don_label_bank": "رقم الحساب البنكي",
+    "don_label_msg": "رسالة",
+    "don_msg_opt": "(اختياري)",
+    "don_msg_ph": "كلمة تشجيع...",
+    "btn_confirm_don": " تأكيد التبرع",
+    "btn_processing": " جاري المعالجة...",
+    "don_secure": "🔒 دفع آمن وموثق"
+  },
+  "chatbot": {
+  "welcome": "مرحباً! أنا مساعدك. اطرح سؤالك.",
+  "placeholder": "اطرح سؤالك...",
+  "send": "إرسال",
+  "typing": "الروبوت يكتب...",
+  "error": "عذراً، لم أفهم السؤال.",
+  "serverError": "خطأ في الخادم. حاول مرة أخرى لاحقاً.",
+  "qa": {
+    "كيف أتبرع؟": "يمكنك التبرع عن طريق ملء النموذج المتاح على موقعنا.",
+    "كيف أقدم طلباً؟": "يمكنك تقديم طلب عن طريق ملء نموذج الطلب الخاص بالجمعية.",
+    "كيف أتواصل مع جمعية؟": "يمكنك التواصل مع جمعية عبر البريد الإلكتروني أو الهاتف من صفحة الجمعية.",
+    "ما أنواع التبرعات التي يمكنني تقديمها؟": "يمكنك تقديم تبرعات مالية، أو تبرعات عينية، أو التطوع بوقتك.",
+    "كيف أتتبع تبرعاتي؟": "سجّل الدخول إلى حسابك واطلع على سجل تبرعاتك.",
+    "هل يمكنني إلغاء تبرع؟": "للأسف، بمجرد تأكيد التبرع لا يمكن إلغاؤه. اتصل بالدعم لمزيد من المعلومات.",
+    "كيف أصبح متطوعاً؟": "املأ نموذج التطوع المتاح على موقعنا وستتواصل معك الجمعية.",
+    "كيف تعمل المنصة؟": "تتيح المنصة تصفح الجمعيات، وتقديم التبرعات، ومتابعة المستفيدين.",
+    "ما الوثائق المطلوبة لتقديم طلب؟": "لتقديم طلب، يجب عليك تقديم هوية شخصية وأي وثائق داعمة تطلبها الجمعية.",
+    "كيف أبلغ عن مشكلة؟": "استخدم نموذج الاتصال أو أرسل بريداً إلكترونياً إلى الدعم للإبلاغ عن أي مشكلة.",
+    "كيف أنشئ حساباً؟": "انقر على \"تسجيل\"، املأ معلوماتك، ثم قم بالتأكيد. يمكنك بعدها تسجيل الدخول.",
+    "نسيت كلمة المرور، ماذا أفعل؟": "انقر على \"نسيت كلمة المرور\" في صفحة الدخول واتبع التعليمات.",
+    "كيف أعدّل ملفي الشخصي؟": "بعد تسجيل الدخول، اذهب إلى قسم \"الملف الشخصي\" لتحديث معلوماتك.",
+    "كيف أغير كلمة المرور؟": "في ملفك الشخصي، افتح قسم \"الأمان\" ثم اختر كلمة مرور جديدة.",
+    "كيف أجد جمعية؟": "استخدم شريط البحث أو الفلاتر (المدينة، الفئة، الاحتياجات) للعثور على جمعية.",
+    "هل يمكنني الفلترة حسب المدينة أو الفئة؟": "نعم، يمكنك فلترة الجمعيات حسب المدينة، الفئة، ونوع الاحتياجات.",
+    "أين أرى تفاصيل جمعية؟": "افتح صفحة الجمعية: ستجد فيها وصفها، احتياجاتها، ومعلومات التواصل.",
+    "كيف أتبرع بعين؟": "اختر \"تبرع عيني\"، حدّد المواد والكميات، ثم اتبع خطوات الإيداع/التسليم.",
+    "كيف أتبرع مالياً؟": "اختر \"تبرع مالي\"، أدخل المبلغ، ثم أكد الدفع حسب الخيارات المتاحة.",
+    "هل سأستلم تأكيداً على تبرعي؟": "نعم، بعد التأكيد ستستلم إشعاراً وستجد التبرع في سجلّك.",
+    "هل التبرع آمن؟": "نعم، نستخدم إجراءات أمان لحماية معلوماتك ومعاملاتك.",
+    "هل يمكنني التبرع بشكل مجهول؟": "حسب الخيارات المتاحة، يمكنك اختيار إخفاء اسمك عن الجمعية.",
+    "كيف أقدم طلب مساعدة؟": "اذهب إلى \"تقديم طلب\"، املأ النموذج، ثم أضف الوثائق المطلوبة.",
+    "كيف أعرف إذا قُبل طلبي؟": "ستستلم إشعاراً ويمكنك متابعة الحالة في مساحتك الشخصية.",
+    "ما الحالات الممكنة لطلب؟": "بشكل عام: قيد الانتظار، قيد المعالجة، مقبول، مرفوض، مُغلق."
+  }
+},
+   "dashboardAdmin": {
+    "sidebar_requests": " الطلبات",
+    "sidebar_associations": "الجمعيات",
+    "sidebar_beneficiaries": "المستفيدون",
+    "sidebar_donors": "المتبرعون",
+    "sidebar_users": "المستخدمون",
+    "sidebar_categories": "الفئات",
+    "sidebar_lawyer": " المحامي",
+    "sidebar_reports": "التقارير / التحليلات",
+    "sidebar_logout": "تسجيل الخروج",
+  "tooltip_illegal_blocked": "محظور: الطلب مُعلَّم كغير قانوني من قبل المحامي",
+    "error_illegal_validation": "⚠️ لا يمكن الموافقة: هذا الطلب مُعلَّم كغير قانوني من قبل المحامي.",
+    "tab_analytics_title": "لوحة التحليلات",
+    "tab_analytics_sub": "مؤشرات الأداء الرئيسية واتجاهات النشاط.",
+    
+    "kpi_total_requests": "إجمالي الطلبات",
+    "kpi_pending": "قيد الانتظار",
+    "kpi_associations": "الجمعيات",
+    "kpi_blocked": "محظورة",
+    "kpi_collected": "التبرعات المجمعة",
+    "kpi_volume": "الحجم الإجمالي",
+    "kpi_active_donors": "المتبرعون النشطون",
+    "kpi_registered": "إجمالي المسجلين",
+
+    "chart_status_title": "حالة الطلبات",
+    "chart_assoc_status_title": "حالة الجمعيات",
+    "chart_users_title": "توزيع المستخدمين",
+    "chart_activity_title": "اتجاه النشاط",
+    "chart_top_donors_title": "أفضل 12 متبرعاً (المبالغ)",
+
+    "tab_requests_title": "طلبات الانضمام",
+    "tab_requests_sub": "تحقق من ملفات الجمعيات وعرض المرفقات.",
+    "search_placeholder": "بحث...",
+    
+    "status_pending": "قيد الانتظار",
+    "status_accepted": "تم التحقق",
+    "status_refused": "مرفوض",
+    
+    "btn_view_docs": "عرض الوثائق",
+    "btn_hide_docs": "إخفاء الوثائق",
+    "btn_validate": "تحقق",
+    "btn_refuse": "رفض",
+    
+    "doc_statut": "الحالة",
+    "doc_autorisation": "التصريح",
+    "doc_registre": "السجل",
+    "doc_cin": "بطاقة هوية الرئيس",
+
+    "tab_users_title": "دليل المستخدمين",
+    "tab_users_sub": "إدارة مركزية لفاعلي المنصة.",
+    "filter_all_roles": "جميع الأدوار",
+    "role_association": "جمعية",
+    "role_donor": "متبرع",
+    "role_beneficiary": "مستفيد",
+    "breakdown_title": "التوزيع",
+    "total_users": "مستخدمين",
+    "member_since": "عضو منذ",
+    "no_users_found": "لم يتم العثور على مستخدمين.",
+
+    "tab_assoc_title": "الجمعيات الشريكة",
+    "tab_assoc_sub": "إدارة الحالات وعرض ملفات الجمعيات.",
+    "status_active": "نشطة",
+    "status_blocked": "محظورة",
+    "btn_block": "حظر",
+    "btn_unblock": "إلغاء الحظر",
+    "registered_on": "مسجل في",
+
+    "tab_donors_title": "المتبرعون",
+    "tab_donors_sub": "قائمة المساهمين وسجل التبرعات.",
+    "total_given": "إجمالي الممنوح",
+
+    "tab_benef_title": "المستفيدون",
+    "tab_benef_sub": "متابعة الملفات الاجتماعية والأهداف المالية.",
+    "phone": "الهاتف",
+    "address": "العنوان",
+    "birth_date": "تاريخ الميلاد",
+    "situation": "الحالة",
+    "target": "الهدف",
+    "remaining": "المتبقي",
+    "associated_with": "مرتبط بـ:",
+    "no_association": "لا توجد جمعية",
+
+    "tab_lawyer_title": "إنشاء حساب محامي",
+    "tab_lawyer_sub": "إنشاء وصول آمن. سيتم إرسال دعوة عبر البريد الإلكتروني فوراً.",
+    "lawyer_name_label": "الاسم الكامل",
+    "lawyer_email_label": "البريد الإلكتروني المهني",
+    "lawyer_btn_create": "إنشاء المحامي",
+    "lawyer_note": "° سيتلقى المحامي رابطاً آمناً لتحديد كلمة المرور الخاصة به.",
+    "lawyer_success": "✅ تم إنشاء المحامي وإرسال الدعوة!",
+    "lawyer_error_fill": "⚠️ يرجى ملء جميع الحقول",
+    "lawyer_error_name_short": "حد أدنى 2 أحرف",
+    "lawyer_error_email_invalid": "تنسيق البريد الإلكتروني غير صالح"
+  },
+   "dashboardBenef": {
+    "sidebar_card": "بطاقتي",
+    "sidebar_donors": "قائمة المتبرعين",
+    "sidebar_security": "الأمان",
+    "sidebar_messages": "الرسائل المستلمة",
+    "sidebar_logout": "تسجيل الخروج",
+
+    "card_role": "مستفيد",
+    "card_footer": "بطاقة المستفيد",
+    
+    "label_email": "البريد الإلكتروني",
+    "label_phone": "الهاتف",
+    "label_cin": "رقم الهوية",
+    "label_birthdate": "تاريخ الميلاد",
+    "label_gender": "الجنس",
+    "label_situation": "الحالة",
+    "label_address": "العنوان",
+    "label_association": "الجمعية",
+    "label_description": "الوصف",
+    "label_status": "الحالة",
+    "status_active": "نشط",
+
+    "pwd_title": "أمان الحساب",
+    "pwd_sub": "غير كلمة المرور بأمان",
+    "pwd_old": "كلمة المرور القديمة",
+    "pwd_new": "كلمة المرور الجديدة",
+    "pwd_confirm": "تأكيد كلمة المرور",
+    "pwd_error_mismatch": "كلمات المرور غير متطابقة",
+    "pwd_error_short": "كلمة المرور قصيرة جداً (حد أدنى 4 أحرف)",
+    "pwd_error_required": "جميع الحقول مطلوبة",
+    "pwd_btn_update": "تحديث",
+    "pwd_btn_loading": "جاري التحميل...",
+    "pwd_success": "تم تغيير كلمة المرور",
+
+    "donors_title": "قائمة المتبرعين",
+    "donors_subtitle": "سجل التبرعات المستلمة.",
+    
+    "kpi_collected": "المبلغ المحصل",
+    "kpi_target": "المبلغ المطلوب",
+    "kpi_remaining": "المبلغ المتبقي",
+    "kpi_count": "عدد التبرعات",
+    
+    "alert_goal_reached": "تم الوصول إلى الهدف: تم جمع المبلغ بالكامل.",
+    
+    "donations_card_title": "التبرعات المستلمة",
+    "donations_card_desc": "أسماء المتبرعين والمبالغ.",
+    "donations_loading": "جاري التحميل…",
+    "donations_count": "{count} متبرع(ين)",
+    
+    "empty_donations_title": "لا توجد تبرعات حتى الآن",
+    "empty_donations_text": "عندما يساعدك متبرع، ستظهر القائمة هنا.",
+    
+    "donor_donations": "تبرع(ات)",
+    
+    "messages_title": "الرسائل المستلمة",
+    "messages_subtitle": "رسائل التشجيع المرسلة من قبل المتبرعين.",
+    "messages_head_title": "تشجيع",
+    "messages_head_sub": "تفاعل مع رسائل المتبرعين.",
+    "messages_count": "{count} رسالة(رسائل)",
+    
+    "empty_messages_title": "لا توجد رسائل حتى الآن",
+    "empty_messages_text": "عندما يضيف متبرع رسالة، ستظهر هنا."
+  },
+   "login": {
+    "badge": "وصول آمن",
+    "title": "مرحباً بك",
+    "subtitle": "سجل دخولك للوصول إلى مساحتك في DON'ACT",
+        "account_blocked": "عذراً، جمعيتك محظورة، يرجى الاتصال بالمسؤول",
+
+    "label_email": "البريد الإلكتروني",
+    "placeholder_email": "your-email@example.com",
+    
+    "label_password": "كلمة المرور",
+    "placeholder_password": "••••••••••••",
+    "forgot_password": "نسيت كلمة المرور؟",
+    
+    "btn_submit": "الدخول إلى DON'ACT",
+    "btn_loading": "جاري تسجيل الدخول...",
+    
+    "error_title": "فشل المصادقة",
+    
+    "footer_new_beneficiary": "مستفيد جديد؟",
+    "footer_link_demande": "تقديم طلب",
+    
+    "footer_first_visit": "زيارتك الأولى؟",
+    "footer_link_about": "اكتشف DON'ACT"
+  },
+   "stripe": {
+    "logo_alt": "سترايب",
+    "test_mode": "وضع الاختبار",
+    "setup": {
+      "title": "فعّل حساب الدفع الخاص بك",
+      "subtitle": "استلم التبرعات مباشرة على حسابك البنكي عبر سترايب — <0>آمن</0>، <1>فوري</1>، بدون رسوم خفية.",
+      "badges": {
+        "ssl": "SSL 256-bit",
+        "pci": "PCI-DSS",
+        "sepa": "🌍 SEPA"
+      },
+      "features": {
+        "auto_transfer": {
+          "title": "تحويل تلقائي",
+          "desc": "اسحب أموالك خلال 1-2 أيام عمل"
+        },
+        "dashboard": {
+          "title": "لوحة تحكم كاملة",
+          "desc": "تابع كل تبرع وكل تحويل في الوقت الفعلي"
+        },
+        "sandbox": {
+          "title": "بيئة اختبار",
+          "desc": "محاكاة واقعية لسترايب بدون مخاطر"
+        }
+      },
+      "btn_connect": "ربط حسابي البنكي",
+      "form_title": "المعلومات البنكية",
+      "form_note": "🧪 وضع الاختبار — لا يتم إرسال بيانات حقيقية",
+      "fields": {
+        "titular": {
+          "label": "صاحب الحساب",
+          "placeholder": "اسم الجمعية أو المستفيد"
+        },
+        "bank": {
+          "label": "البنك",
+          "placeholder": "اختر بنكاً"
+        },
+        "iban": {
+          "label": "IBAN (صيغة اختبار)",
+          "placeholder": "TN59 0000 0000 0000 0000 0000",
+          "hint": "مثال: TN59 1000 6000 0000 0000 0000"
+        }
+      },
+      "btn_back": "← عودة",
+      "btn_activate": "تفعيل حساب سترايب"
+    },
+    "dashboard": {
+      "tabs": {
+        "overview": "نظرة عامة",
+        "withdraw": "سحب"
+      },
+      "balance": {
+        "available": "الرصيد المتاح",
+        "ready": "جاهز للسحب",
+        "collected": "المجموع المحصل",
+        "donations_received": "تبرعات مستلمة",
+        "pending": "قيد الانتظار",
+        "pending_desc": "تحويلات قيد المعالجة",
+        "fees": "رسوم سترايب",
+        "fees_desc": "2.9% + 0.30 DT / تبرع"
+      },
+      "account": {
+        "title": "الحساب البنكي المرتبط",
+        "verified": "موثّق",
+        "titular": "الصاحب",
+        "bank": "البنك",
+        "iban": "IBAN",
+        "activated": "تم التفعيل في"
+      },
+      "transactions": {
+        "title": "المعاملات الأخيرة",
+        "count": "تبرعات",
+        "empty_title": "لم يتم استلام أي تبرعات بعد",
+        "empty_desc": "ستظهر التبرعات هنا تلقائياً",
+        "anonymous": "متبرع مجهول",
+        "net": "صافي",
+        "paid": "مدفوع"
+      },
+      "withdrawals": {
+        "title": "سجل السحوبات",
+        "bank_transfer": "تحويل بنكي",
+        "completed": "مكتمل",
+        "pending": "قيد الانتظار"
+      }
+    },
+    "withdraw": {
+      "title": "بدء سحب",
+      "to_bank": "إلى",
+      "available": "المتاح",
+      "amount_label": "المبلغ المراد سحبه (دينار)",
+      "amount_placeholder": "0.00",
+      "quick_amounts": {
+        "all": "الكل"
+      },
+      "summary": {
+        "amount": "المبلغ",
+        "delay": "المدة التقديرية",
+        "delay_value": "1-2 أيام عمل",
+        "you_receive": "ستستلم"
+      },
+      "btn_cancel": "← إلغاء",
+      "btn_confirm": "تأكيد السحب",
+      "btn_processing": "جاري المعالجة…",
+      "note": "وضع الاختبار — لا يتم تنفيذ تحويل حقيقي • بيانات مشفرة من طرف إلى طرف"
+    },
+    "toast": {
+      "setup_success": "🎉 تم تفعيل حساب سترايب بنجاح!",
+      "withdraw_success": "💸 تم بدء سحب مبلغ {amount}!",
+      "error_fill": "يرجى ملء جميع الحقول",
+      "error_invalid": "مبلغ غير صالح",
+      "error_insufficient": "رصيد غير كافٍ",
+      "error_min": "الحد الأدنى 10 دينار مطلوب"
+    }
+  },
+  "lang": {
+    "fr": "Français",
+    "en": "English",
+    "ar": "العربية"
+  }
+}

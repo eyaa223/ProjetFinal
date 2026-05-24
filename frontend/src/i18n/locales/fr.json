@@ -1,0 +1,1162 @@
+{
+  "nav": {
+    "home": "Accueil",
+    "about": "À propos",
+    "contact": "Contact",
+    "demande": "Demande",
+    "demande_assoc": "Demande Association",
+    "demande_aide": "Demande d'aide",
+    "login": "Connexion",
+    "register": "Inscription",
+    "dashboard": "Tableau de bord",
+    "top_donors": "Top Donneurs",
+    "notifications": "Notifications",
+    "no_notifications": "Aucune notification",
+    "logout": "Déconnexion",
+    "search_placeholder": "Rechercher une association…",
+    "language": "Langue",
+    "associations": "Associations",
+    "beneficiaries": "Bénéficiaires",
+    "donations": "Dons",
+    "profile": "Profil",
+    "settings": "Paramètres"
+  },
+  "stats": {
+    "beneficiaries": "Bénéficiaires aidés",
+    "associations": "Associations partenaires",
+    "satisfaction": "Satisfaction donateurs",
+    "collected": "DT collectés"
+  },
+  "about": {
+    "hero": {
+      "badge": "Depuis 2020 · +50 000 vies impactées",
+      "title_part1": "Notre Histoire :",
+      "title_part2": "Quand l'Espoir Rencontre l'Action",
+      "subtitle": "Derrière chaque clic, une vie transformée. Derrière chaque don, un avenir reconstruit. Rejoignez le mouvement qui redéfinit la solidarité en Tunisie.",
+      "btn_donor": "Devenir donateur",
+      "btn_actions": "Découvrir nos actions",
+      "trust_secure": "100% sécurisé",
+      "trust_transparency": "Transparence totale",
+      "trust_impact": "Impact immédiat",
+      "scroll_down": "Descendre"
+    },
+    "story": {
+      "tag": "Notre Origine",
+      "title": "La Naissance d'une <span>Vision</span>",
+      "quote": "\"Tout a commencé par une rencontre bouleversante : Yasmine, 9 ans, partageant un seul repas par jour avec sa mère dans un quartier défavorisé de Tunis.\"",
+      "para1": "Ce jour-là, nous avons compris que <strong>la générosité existe partout</strong> — mais manque souvent de ponts pour atteindre ceux qui en ont besoin.",
+      "para2": "Don'Act est né de cette conviction : <strong>chaque personne mérite d'être vue, entendue et soutenue</strong>. Nous ne sommes pas une simple plateforme de dons — nous sommes un écosystème vivant où les cœurs généreux rencontrent les mains tendues, avec transparence absolue.",
+      "stat_year": "Année de création",
+      "stat_partners": "+200",
+      "stat_beneficiaries": "50K+",
+      "img_badge": "Ensemble, nous écrivons une nouvelle histoire"
+    },
+    "values": {
+      "tag": "Nos Fondations",
+      "title": "Nos Valeurs <span>au Quotidien</span>",
+      "subtitle": "Quatre piliers qui guident chacune de nos actions et définissent notre engagement envers vous.",
+      "v1_title": "Transparence Radicale",
+      "v1_desc": "Chaque dinar donné est tracé en temps réel. Vous voyez exactement comment votre geste transforme une vie.",
+      "v2_title": "Dignité Avant Tout",
+      "v2_desc": "Chaque bénéficiaire est une personne avec une histoire, des rêves et le droit à la dignité.",
+      "v3_title": "Impact Mesurable",
+      "v3_desc": "Nous mesurons l'impact humain, pas seulement les chiffres. Des résultats concrets, pas des promesses.",
+      "v4_title": "Communauté Solidaire",
+      "v4_desc": "Donateurs, associations et bénéficiaires forment un cercle vertueux où chacun grandit ensemble."
+    },
+    "contact": {
+      "tag": "Rejoignez-nous",
+      "title": "Écrivez le Prochain <span>Chapitre</span>",
+      "subtitle": "Que vous souhaitiez donner, partager votre histoire, devenir bénévole ou simplement poser une question — nous sommes là pour vous écouter.",
+      "write_title": "Écrivez-nous",
+      "write_note": "Réponse sous 24h",
+      "call_title": "Appelez-nous",
+      "call_note": "Lun-Ven : 9h–18h",
+      "visit_title": "Notre Maison",
+      "visit_note": "Venez prendre un café !",
+      "social_title": "Suivez nos Histoires d'Espoir",
+      "social_sub": "Des moments authentiques, des impacts réels, partagés en temps réel.",
+      "fb_label": "Vies transformées",
+      "ig_label": "Sourires du jour",
+      "tw_label": "Urgences solidaires",
+      "li_label": "Impact professionnel",
+      "join_caption": "Chaque geste compte. Chaque histoire inspire."
+    },
+    "cta": {
+      "title": "Prêt à Faire <span>la Différence ?</span>",
+      "subtitle": "Votre premier pas vers un impact réel commence ici. Rejoignez des milliers de personnes qui ont déjà choisi d'agir.",
+      "btn": "Commencer maintenant",
+      "note": "Paiement sécurisé · 100% transparent · Impact garanti"
+    }
+  },
+  "home": {
+    "hero": {
+      "badge": "Plateforme #1 en Tunisie",
+      "title_line1": "Donnez de l'espoir,",
+      "title_line2": "Transformez des vies.",
+      "subtitle": "Rejoignez la communauté qui redéfinit la solidarité. Transparence totale, impact réel et connexion directe avec ceux qui en ont besoin.",
+      "cta_donor": "Devenir donateur",
+      "cta_assoc": "Voir les associations",
+      "trust_secure": "Paiement sécurisé",
+      "trust_transparent": "100% Transparent",
+      "trust_impact": "Impact vérifié",
+      "scroll_label": "Découvrir nos statistiques"
+    },
+    "stats": {
+      "beneficiaries": "Bénéficiaires aidés",
+      "associations": "Associations partenaires",
+      "satisfaction": "Taux de satisfaction",
+      "collected": "Fonds collectés (DT)"
+    },
+    "showcase": {
+      "img_alt": "Bienvenue sur Don'Act",
+      "tag": "Notre Mission",
+      "title_line1": "Plus qu'une plateforme,",
+      "title_line2": "un écosystème solidaire.",
+      "desc": "Nous connectons directement les généreux donateurs aux associations vérifiées. Fini les intermédiaires opaques : chaque dinar est tracé, chaque action est mesurée.",
+      "cta": "En savoir plus sur nous"
+    },
+    "why": {
+      "tag": "Pourquoi nous choisir",
+      "title": "La différence ",
+      "desc": "Nous avons repensé le don pour le rendre plus sûr, plus simple et plus humain.",
+      "items": {
+        "transparency": {
+          "title": "Transparence Totale",
+          "desc": "Suivez vos dons en temps réel. Vous savez exactement où va votre argent et quel impact il génère."
+        },
+        "security": {
+          "title": "Sécurité Maximale",
+          "desc": "Vos transactions sont protégées par un chiffrement de niveau bancaire. Vos données sont privées et sécurisées."
+        },
+        "connection": {
+          "title": "Connexion Directe",
+          "desc": "Créez un lien humain avec les bénéficiaires. Recevez des nouvelles et voyez le sourire que vous avez offert."
+        },
+        "impact": {
+          "title": "Impact Mesurable",
+          "desc": "Des rapports détaillés et des preuves concrètes. Nous transformons la générosité en résultats tangibles."
+        }
+      }
+    },
+    "cta": {
+      "title_line1": "Prêt à changer",
+      "title_line2": "le monde aujourd'hui ?",
+      "subtitle": "Ne laissez plus la distance ou le doute vous arrêter. Votre geste, aussi petit soit-il, peut tout changer pour quelqu'un.",
+      "cta_start": "Commencer maintenant",
+      "cta_assoc": "Explorer les projets",
+      "note": "Inscription gratuite · Sans engagement · Sécurisé"
+    },
+    "footer": {
+      "tagline": "Solidarité nouvelle génération."
+    }
+  },
+   "top": {
+    "title": "Top Donneurs du Mois",
+    "subtitle": "Les héros de la générosité qui font la différence",
+    "loading": "Chargement des champions...",
+    "error": "Impossible de charger les top donneurs 😔",
+    "empty_title": "Aucun donneur ce mois-ci",
+    "empty_sub": "Revenez bientôt pour découvrir les premiers héros !",
+    "contenders_title": "Et les suivants...",
+    "stats_dons": "dons",
+    "stats_avg": "moyenne"
+  },
+  "contact": {
+    "tag": "Rejoignez-nous",
+    "title": "Écrivez le Prochain <span>Chapitre</span>",
+    "subtitle": "Que vous souhaitiez donner, partager votre histoire, devenir bénévole ou simplement poser une question — nous sommes là pour vous écouter.",
+    "write_title": "Écrivez-nous",
+    "write_note": "Réponse sous 24h",
+    "call_title": "Appelez-nous",
+    "call_note": "Lun-Ven : 9h–18h",
+    "visit_title": "Notre Maison",
+    "visit_note": "Venez prendre un café !",
+    "social_title": "Suivez nos Histoires d'Espoir",
+    "social_sub": "Des moments authentiques, des impacts réels, partagés en temps réel.",
+    "fb_label": "Vies transformées",
+    "ig_label": "Sourires du jour",
+    "tw_label": "Urgences solidaires",
+    "li_label": "Impact professionnel",
+    "join_caption": "Chaque geste compte. Chaque histoire inspire."
+  },
+  "demande": {
+    "hero_badge": "Espace Bénéficiaire",
+    "title": "Demande d'aide",
+    "err_fetch_assoc": "Impossible de charger les associations",
+    
+    "label_nom": "Nom",
+    "label_prenom": "Prénom",
+    "label_email": "Email",
+    "label_telephone": "Téléphone",
+    "label_cin": "CIN",
+    "label_date_naissance": "Date de naissance",
+    "label_adresse": "Adresse complète",
+    "label_genre": "Genre",
+    "label_situation": "Situation familiale",
+    "label_montant": "Montant à collecter (DT)",
+    "label_association": "Association bénéficiaire",
+    "label_description": "Description de votre situation",
+    
+    "placeholder_select": "Sélectionner...",
+    "placeholder_situation": "Ex: Famille monoparentale, 3 enfants...",
+    "placeholder_description": "Expliquez brièvement votre situation et vos besoins...",
+    "help_description": "Minimum 20 caractères. Soyez clair et sincère.",
+    
+    "genre_homme": "Homme",
+    "genre_femme": "Femme",
+    
+    "section_docs": "Documents à fournir",
+    "doc_identite_label": "Preuve de situation",
+    "doc_identite_hint": "PDF, JPG, PNG • Max 5 Mo • Obligatoire",
+    "doc_autre_label": "Document complémentaire",
+    "doc_autre_hint": "PDF, JPG, PNG • Max 5 Mo • Optionnel",
+    "optional_label": "Optionnel",
+    
+    "btn_help": "Besoin d'aide ?",
+    "btn_submit": "Soumettre ma demande",
+    "btn_loading": "Envoi en cours...",
+    
+    "err_nom": "Veuillez saisir votre nom.",
+    "err_prenom": "Veuillez saisir votre prénom.",
+    "err_email": "Veuillez saisir votre email.",
+    "err_telephone": "Veuillez saisir votre téléphone.",
+    "err_cin": "Veuillez saisir votre CIN.",
+    "err_date_naissance": "Veuillez saisir votre date de naissance.",
+    "err_adresse": "Veuillez saisir votre adresse.",
+    "err_genre": "Veuillez sélectionner votre genre.",
+    "err_situation": "Veuillez saisir votre situation familiale.",
+    "err_montant": "Veuillez saisir un montant valide.",
+    "err_association": "Veuillez sélectionner une association.",
+    "err_description": "La description doit contenir au moins 20 caractères.",
+    "err_doc_identite": "Le document justificatif est obligatoire.",
+    
+    "error_title": "Formulaire incomplet",
+    "success_title": "Demande envoyée ✓",
+    "success_text": "Votre demande a été reçue. L'association vous contactera sous peu.",
+
+    "help": {
+      "modal_title": "Documents requis — Bénéficiaire",
+      "examples_label": "Exemples",
+      
+      "doc1_title": "📄 Preuve de situation",
+      "doc1_desc": "Le bénéficiaire doit fournir un document justifiant sa situation actuelle afin de permettre la vérification de la demande d'aide.",
+      "doc1_example1": "certificat médical",
+      "doc1_example2": "preuve de revenu",
+      "doc1_example3": "attestation sociale",
+      "doc1_example4": "document administratif officiel",
+      "doc1_note": "Ce document est obligatoire pour valider la demande.",
+      
+      "doc2_title": "📎 Document justificatif (optionnel)",
+      "doc2_desc": "Le bénéficiaire peut ajouter tout document complémentaire pouvant appuyer sa demande.",
+      "doc2_example1": "ordonnance",
+      "doc2_example2": "facture",
+      "doc2_example3": "rapport médical",
+      "doc2_example4": "lettre explicative",
+      "doc2_example5": "tout autre justificatif utile",
+      "doc2_note": "Ce document est facultatif mais peut aider à mieux comprendre la situation du bénéficiaire.",
+      
+      "general_note_title": "⚠️ Rappel important",
+      "general_note_item1": "Les documents doivent être lisibles et complets",
+      "general_note_item2": "Les informations doivent correspondre à votre formulaire",
+      "general_note_item3": "Les fichiers corrompus ou illisibles entraînent le refus de la demande"
+    }
+  },
+  "register": {
+    "visual_badge": "Rejoignez le mouvement",
+    "visual_title_line1": "Devenez un",
+    "visual_title_line2": "Acteur du Changement",
+    "visual_desc": "Créez votre compte donneur en quelques secondes et commencez à impacter des vies dès aujourd'hui.",
+    "benefit_tracking": "Suivi des dons en temps réel",
+    "benefit_verified": "Accès aux profils vérifiés",
+    "benefit_impact": "Impact direct et transparent",
+    
+    "form_title": "Créer un compte",
+    "form_sub": "Commencez votre voyage solidaire.",
+    
+    "label_name": "Nom complet",
+    "placeholder_name": "Jean Dupont",
+    
+    "label_email": "Adresse Email",
+    "placeholder_email": "jean@exemple.com",
+    
+    "label_password": "Mot de passe",
+    "placeholder_password": "••••••••",
+    "hint_password": "Minimum 8 caractères requis",
+    
+    "btn_submit": "S'inscrire",
+    "btn_loading": "Création...",
+    "footer_text": "Déjà membre ?",
+    "footer_link": "Se connecter"
+  },
+  "beneficiaryRequest": {
+    "help": {
+      "modal_title": "Documents requis — Bénéficiaire",
+      "examples_label": "Exemples",
+      
+      "doc1_title": "📄 Preuve de situation",
+      "doc1_desc": "Le bénéficiaire doit fournir un document justifiant sa situation actuelle afin de permettre la vérification de la demande d'aide.",
+      "doc1_example1": "certificat médical",
+      "doc1_example2": "preuve de revenu",
+      "doc1_example3": "attestation sociale",
+      "doc1_example4": "document administratif officiel",
+      "doc1_note": "Ce document est obligatoire pour valider la demande.",
+      
+      "doc2_title": "📎 Document justificatif (optionnel)",
+      "doc2_desc": "Le bénéficiaire peut ajouter tout document complémentaire pouvant appuyer sa demande.",
+      "doc2_example1": "ordonnance",
+      "doc2_example2": "facture",
+      "doc2_example3": "rapport médical",
+      "doc2_example4": "lettre explicative",
+      "doc2_example5": "tout autre justificatif utile",
+      "doc2_note": "Ce document est facultatif mais peut aider à mieux comprendre la situation du bénéficiaire.",
+      
+      "general_note_title": "⚠️ Rappel important",
+      "general_note_item1": "Les documents doivent être lisibles et complets",
+      "general_note_item2": "Les informations doivent correspondre à votre formulaire",
+      "general_note_item3": "Les fichiers corrompus ou illisibles entraînent le refus de la demande"
+    }
+  },
+  "theme": {
+    "light": "Clair",
+    "dark": "Sombre"
+  },
+  "validation": {
+    "name_required": "Veuillez saisir le nom de l'association.",
+    "email_invalid": "Email invalide.",
+    "phone_invalid": "Téléphone invalide.",
+    "manager_required": "Veuillez saisir le responsable.",
+    "address_required": "Veuillez saisir l'adresse.",
+    "category_required": "Veuillez sélectionner une catégorie.",
+    "description_short": "La description doit contenir au moins 20 caractères.",
+    "doc_required": "Veuillez ajouter : {doc}."
+  },
+  "form": {
+    "incomplete_title": "Formulaire incomplet",
+    "success_title": "Demande envoyée",
+    "success_text": "Votre demande a bien été envoyée. Nous vous contacterons après vérification."
+  },
+  "associationRequest": {
+    "hero_badge": "Espace Association",
+    "title": "Demande d'inscription",
+    "subtitle": "Remplissez ce formulaire pour soumettre votre association à validation.",
+    "progress_label": "Progression du formulaire",
+    "step_1": "Identité",
+    "step_2": "Documents",
+    "step_3": "Validation",
+    
+    "section_identity": "Identité de l'association",
+    "section_docs": "Documents requis",
+    
+    "label_name": "Nom de l'association",
+    "placeholder_name": "Ex : Association Espoir",
+    "label_email": "Email officiel",
+    "placeholder_email": "contact@association.org",
+    "label_phone": "Téléphone",
+    "placeholder_phone": "+216 XX XXX XXX",
+    "label_manager": "Responsable légal",
+    "placeholder_manager": "Nom et prénom du responsable",
+    "label_address": "Adresse du siège",
+    "placeholder_address": "Adresse complète avec code postal",
+    "label_category": "Catégorie d'action",
+    "placeholder_category": "Sélectionner une catégorie",
+    "help_category": "Choisissez la catégorie principale de vos actions.",
+    "label_description": "Description des activités",
+    "placeholder_description": "Décrivez brièvement votre mission, vos actions et vos bénéficiaires...",
+    "help_description": "Minimum 20 caractères. Soyez clair et concis.",
+    "counter_desc": " caractères",
+    "label_logo": "Logo de l'association",
+    "btn_upload_logo": "Télécharger un logo",
+    "btn_change_logo": "Changer le logo",
+    "logo_hint": "PNG, JPG • Max 5 Mo",
+    
+    "doc_statut": "Statut Juridique",
+    "doc_autorisation": "Autorisation Légale",
+    "doc_registre": "Registre / RIB",
+    "doc_cin": "CIN du Responsable",
+    
+    "docs_summary_complete": "✓ Tous les documents sont ajoutés",
+    "docs_summary_missing": "{count} document(s) manquant(s)",
+    "docs_hint": "Formats acceptés : PDF, JPG, PNG • Max 5 Mo par fichier",
+    "file_hint": "PDF, JPG, PNG • Max 5 Mo",
+    "btn_select_file": "Sélectionner un fichier",
+    "btn_modify_file": "Modifier",
+    
+    "btn_help": "Besoin d'aide ?",
+    "btn_cancel": "Annuler",
+    "btn_loading": "Envoi en cours...",
+    "btn_submit": "Soumettre la demande",
+    
+    "privacy_text": "Vos données sont protégées. Consultez notre",
+    "privacy_link": "politique de confidentialité",
+
+    "help": {
+      "modal_title": "Documents requis — Association",
+      "contains_label": "Il contient",
+      
+      "doc1_title": "1. Statut Juridique de l'Association",
+      "doc1_desc": "Ce document représente la carte d'identité officielle de l'association.",
+      "doc1_item1": "le nom de l'association",
+      "doc1_item2": "son objet social (ex : aide humanitaire, actions caritatives)",
+      "doc1_item3": "la date de création",
+      "doc1_item4": "l'adresse du siège",
+      "doc1_item5": "la manière dont elle est gérée (bureau directeur / conseil d'administration)",
+      "doc1_note": "Il sert à définir l'identité et l'organisation interne de l'association.",
+      
+      "doc2_title": "2. Autorisation Légale / Récépissé",
+      "doc2_desc": "C'est un document officiel délivré par une autorité compétente.",
+      "doc2_item1": "un numéro d'autorisation unique",
+      "doc2_item2": "le nom de l'autorité émettrice",
+      "doc2_item3": "la date d'émission",
+      "doc2_note": "Il prouve que l'association est légalement reconnue et autorisée à exister.",
+      
+      "doc3_title": "3. Relevé d'Identité Bancaire (RIB)",
+      "doc3_desc": "C'est le document bancaire de l'association.",
+      "doc3_item1": "le nom de la banque",
+      "doc3_item2": "le titulaire du compte (l'association)",
+      "doc3_item3": "l'IBAN",
+      "doc3_item4": "le BIC",
+      "doc3_note": "Il est utilisé pour recevoir des dons, financements ou paiements.",
+      "doc3_warning": "Sans RIB, aucune transaction financière ne peut être effectuée.",
+      
+      "doc4_title": "4. Liste du Bureau Directeur",
+      "doc4_desc": "Ce document présente les responsables officiels de l'association.",
+      "doc4_item1": "le président",
+      "doc4_item2": "le secrétaire général",
+      "doc4_item3": "le trésorier",
+      "doc4_note": "Il permet de savoir qui dirige et gère l'association.",
+      "doc4_warning": "Les signatures confirment la responsabilité légale des membres.",
+      
+      "general_note_title": "Note importante générale",
+      "general_note_intro": "Tous les documents doivent être :",
+      "general_note_item1": "complets et lisibles",
+      "general_note_item2": "correctement remplis",
+      "general_note_item3": "cohérents avec les informations de l'association",
+      "general_note_conclusion": "Des documents incomplets peuvent entraîner le rejet de la demande."
+    }
+  },
+  "associations": {
+    "header_title": "Nos Associations Partenaires",
+    "header_subtitle_singular": "Découvrez l'association engagée pour un impact social positif.",
+    "header_subtitle_plural": "Découvrez les associations engagées pour un impact social positif.",
+    
+    "search_placeholder": "Rechercher une association...",
+    "btn_reset": "Réinitialiser",
+    
+    "filter_btn": "Filtres",
+    "filter_reset": "Réinitialiser",
+    "filter_title": "Filtrer par catégorie",
+    "filter_count_singular": "{count} sélectionné",
+    "filter_count_plural": "{count} sélectionnés",
+    "loading_categories": "Chargement...",
+    
+    "empty_title": "Aucune association trouvée",
+    "empty_sub": "Essayez de modifier vos critères de recherche ou réinitialisez les filtres.",
+    "empty_btn": "Réinitialiser les filtres",
+    
+    "card_no_desc": "Aucune description disponible pour le moment.",
+    "card_rank_label": "Rang",
+    "card_score_label": "Score",
+    "card_beneficiaries": "bénéficiaires",
+    "card_cta": "Voir les détails"
+  },
+  "associationDetails": {
+    "btn_back": "Associations",
+    "hero_verified": "Association vérifiée",
+    "hero_status_active": "● Active",
+    "hero_status_inactive": "● Inactive",
+    "hero_btn_contact": "Contacter",
+    "hero_btn_call": "Appeler",
+    "error_loading": "Impossible de charger les détails de l'association.",
+    "stat_members": "Membres",
+    "stat_donations": "Dons reçus",
+    "stat_contributions": "Cotisations à jour",
+    
+    "tab_infos": "Informations",
+    "tab_description": "Description",
+    "tab_contributions": "Cotisations",
+    
+    "section_contact": "Coordonnées",
+    "label_email": "Email",
+    "label_phone": "Téléphone",
+    "label_address": "Adresse",
+    "label_category": "Catégorie",
+    "label_member_since": "Membre depuis",
+    
+    "section_about": "À propos",
+    "no_description": "Aucune description disponible pour cette association.",
+    
+    "section_progress": "Avancement 2025",
+    "progress_label": "membres à jour",
+    
+    "section_recent_donations": "Dons récents",
+    
+    "sidebar_share": "Partager",
+    "sidebar_qr_label": "Scanner pour accéder au profil",
+    "btn_copy_link": "Copier le lien",
+    "btn_copied": "Lien copié !",
+    
+    "sidebar_status": "Statut",
+    "status_activity": "Activité",
+    "status_verification": "Vérification",
+    "status_verified": "Vérifiée",
+    "status_registered_on": "Inscrite le",
+    
+    "sidebar_quick_contact": "Contact rapide"
+  },
+  "dashboardAssoc": {
+    "sidebar_profile": "Profil",
+    "sidebar_beneficiaries": "Bénéficiaires",
+    "sidebar_requests": "Demandes",
+    "sidebar_donors": "Dons reçus",
+    "sidebar_transparency": "Transparence",
+    "sidebar_security": "Sécurité",
+    "sidebar_card": "Mon card",
+    "sidebar_history": "Historique",
+    "sidebar_logout": "Déconnexion",
+
+    "tab_profile_title": "Mon Profil",
+    "tab_profile_sub": "Gérez les informations de votre association",
+    "btn_edit": "Éditer",
+    "ia_rank": "Rang IA",
+    "ia_score": "Score IA",
+    "ia_eval": "Évaluation",
+    "ia_class": "Classification IA :",
+    "section_contact_info": "Informations de contact",
+    "section_contact_sub": "Modifiez et enregistrez vos informations",
+    "label_email": "Email",
+    "label_phone": "Téléphone",
+    "label_category": "Catégorie",
+    "label_address": "Adresse",
+    "label_name": "Nom de l'association",
+    "label_desc": "Description",
+    "label_date_naissance": "Date de naissance",
+  "label_situation": "Situation familiale",
+  "label_association": "Association",
+  "label_description": "Description",
+  "label_status": "Statut",
+  "status_active": "Actif",
+  "status_inactive": "Inactif",
+  "status_pending": "En attente",
+  "label_montant": "Montant requis (DT)",
+  "label_remaining": "Reste à collecter (DT)",
+  "label_genre": "Genre",
+  "label_cin": "N° CIN / Identité",
+  "label_email": "Adresse e-mail",
+  "section_docs": "Documents justificatifs",
+    "placeholder_phone": "Ex: +216 XX XXX XXX",
+    "placeholder_category": "Ex: Humanitaire",
+    "placeholder_address": "Ex: Tunis, Tunisie",
+    "placeholder_name": "Nom de votre association",
+    "placeholder_desc": "Décrivez votre association...",
+    "btn_save": "Enregistrer les modifications",
+    "btn_saving": "Sauvegarde...",
+    "alert_profile_saved": "Profil mis à jour !",
+
+    "tab_card_title": "Mon card",
+    "tab_card_sub": "Informations publiques de votre association + QR code.",
+    "qr_scan": "Scannez pour voir les détails",
+    "qr_sub": "Profil public de l'association",
+    "card_footer": "Carte association",
+
+    "tab_password_title": "Sécurité du compte",
+    "tab_password_sub": "Modifiez votre mot de passe pour protéger les données de votre association.",
+    "pwd_old": "Ancien mot de passe",
+    "pwd_new": "Nouveau mot de passe",
+    "pwd_confirm": "Confirmer le mot de passe",
+    "btn_update_pwd": "Mettre à jour",
+    "alert_pwd_success": "Mot de passe changé avec succès",
+    "alert_pwd_mismatch": "Les mots de passe ne correspondent pas",
+
+    "tab_donors_title": "Donneurs",
+    "tab_donors_sub": "Consultez la liste des dons effectués pour vos bénéficiaires.",
+    "donor_total_collected": "Total collecté",
+    "donor_num_donations": "Nombre de dons",
+    "donor_details_title": "Détail des dons",
+    "empty_donors": "Aucun donneur trouvé.",
+
+    "tab_requests_title": "Demandes",
+    "tab_requests_sub": "Gérez les demandes des bénéficiaires : accepter ou refuser.",
+    "req_accept": "Accepter",
+    "req_reject": "Refuser",
+    "req_confirm_accept": "Voulez-vous vraiment accepter cette demande ?",
+    "req_confirm_reject": "Voulez-vous vraiment refuser cette demande ?",
+    "empty_requests": "Aucune demande.",
+    "doc_identity": "Identité",
+    "doc_other": "Autre",
+
+    "tab_beneficiaries_title": "Bénéficiaires",
+    "tab_beneficiaries_sub": "Gérez les bénéficiaires : suivi des montants et pourcentage.",
+    "benef_to_collect": "À collecter",
+    "benef_remaining": "Restant",
+    "btn_update_pct": "Mettre à jour le pourcentage",
+    "btn_validate": "Valider",
+    "alert_pct_updated": "Pourcentage mis à jour !",
+    "empty_beneficiaries": "Aucun bénéficiaire.",
+
+    "tab_transparency_title": "Transparence",
+    "tab_transparency_sub": "Visualisez vos statistiques d'impact et de collecte.",
+    "btn_export": "Exporter les données",
+    "stat_donors": "Donneurs",
+    "stat_donors_hint": "Nombre total de donneurs",
+    "stat_beneficiaries": "Bénéficiaires",
+    "stat_beneficiaries_hint": "Bénéficiaires aidés",
+    "stat_requests": "Demandes",
+    "stat_requests_hint": "{count} en attente",
+    "stat_donations_received": "Dons reçus",
+    "stat_donations_hint": "Total des dons",
+    
+    "chart_monthly": "Dons reçus par mois",
+    "chart_monthly_sub": "Montant total + nombre de dons (mensuel)",
+    "chart_yearly": "Dons reçus par année",
+    "chart_yearly_sub": "Vue annuelle (montants + nombre)",
+    "legend_amount": "Montant",
+    "legend_count": "Dons",
+    "no_data_monthly": "Aucune donnée mensuelle disponible.",
+    "no_data_yearly": "Aucune donnée annuelle disponible.",
+    
+    "benef_summary_title": "Résumé bénéficiaires",
+    "benef_summary_sub": "Suivi financier global",
+    "benef_total_target": "Total à collecter",
+    "benef_total_collected": "Total collecté (estimé)",
+    "benef_total_remaining": "Total restant",
+    
+    "transparency_note_title": "Engagement de transparence",
+    "transparency_note_text": "Suivez l'évolution de votre activité (dons, demandes, bénéficiaires) de manière claire et vérifiable. Nous encourageons les associations à partager régulièrement ces statistiques pour renforcer la confiance avec leurs donateurs et bénéficiaires.",
+
+    "tab_history_title": "Historique",
+    "tab_history_sub": "Bénéficiaires ayant terminé leur collecte.",
+    "history_completed": "terminé",
+    "history_empty": "Aucun bénéficiaire n'a terminé sa collecte.",
+    "th_beneficiary": "Bénéficiaire",
+    "th_goal": "Objectif",
+    "th_remaining": "Restant",
+    "th_status": "Statut",
+    "status_completed": "Terminé"
+    
+  },
+   "dashboardDonor": {
+    "sidebar_profile": "Profil",
+    "sidebar_donations": "Mes dons",
+    "sidebar_donate": "Faire un don",
+    "sidebar_comments": "Mes commentaires",
+    "sidebar_certificate": "Certificat",
+    "sidebar_card": "Mon card",
+    "sidebar_security": "Sécurité",
+    "sidebar_back_assoc": "Retour associations",
+    "sidebar_logout": "Déconnexion",
+    "label_status": "Statut",
+    "status_active": "Actif",
+    "tab_profile_title": "Mon Profil",
+    "tab_profile_sub": "Gérez vos informations personnelles",
+    "btn_edit": "✏️ Éditer",
+    "label_email": "Email",
+    "label_name": "Nom",
+    "label_bank": "Numéro bancaire",
+    "placeholder_bank": "XXXX XXXX XXXX XXXX",
+    "btn_save": "Enregistrer",
+    "btn_update_card": "Mettre à jour carte",
+    "btn_saving": "Sauvegarde...",
+
+    "tab_password_title": "Sécurité du compte",
+    "tab_password_sub": "Changez votre mot de passe.",
+    "pwd_old": "Ancien mot de passe",
+    "pwd_new": "Nouveau mot de passe",
+    "pwd_confirm": "Confirmer le nouveau mot de passe",
+    "btn_update_pwd": "Mettre à jour",
+    "alert_pwd_success": "✅ Mot de passe changé avec succès",
+    
+    "tab_donations_title": "Mes dons",
+    "tab_donations_sub": "Historique complet de vos contributions",
+    "btn_export_csv": "Exporter CSV",
+    "stat_total_given": "Total donné",
+    "stat_count": "Dons effectués",
+    "stat_avg": "Moyenne / don",
+    "history_title": "Historique",
+    "history_hint": "— cliquez une ligne pour détails",
+    "search_placeholder": "Rechercher...",
+    "empty_donations_title": "Aucun don pour le moment",
+    "empty_donations_text": "Découvrez les associations et faites une différence.",
+    "btn_make_donation": "Faire un don",
+    "status_completed": "Complété",
+    "status_pending": "En cours",
+    "don_count": "don(s)",
+
+    "section_personal_info": "Informations personnelles",
+    "section_donation_history": "Historique des dons",
+    "section_personal_sub": "Gérez vos informations et suivez votre impact",
+
+    "tab_messages_title": "Mes commentaires",
+    "tab_messages_sub": "Messages laissés avec vos dons",
+    "empty_messages_title": "Aucun commentaire",
+    "empty_messages_text": "Ajoutez un mot d'encouragement lors de votre prochain don.",
+    "btn_msg_donate": "Faire un don avec message",
+    "msg_count": "message(s)",
+    "btn_save_msg": "Enregistrer",
+    "btn_cancel": "Annuler",
+
+    "tab_cert_title": "Mon Certificat",
+    "tab_cert_sub": "Visualisez et téléchargez votre certificat de don.",
+    "cert_loading": "Génération du certificat...",
+    "cert_unavailable": "Certificat indisponible",
+    "cert_none_title": "Aucun certificat disponible",
+    "cert_none_text": "Effectuez votre premier don pour obtenir votre certificat officiel.",
+    "btn_retry": "Réessayer",
+    "btn_download_pdf": "Télécharger PDF",
+    "btn_first_don": "Faire mon premier don",
+
+    "tab_card_role": "Donneur Vérifié",
+    "card_stat_total": "Total Donné",
+    "card_stat_count": "Dons Effectués",
+    "card_stat_times": "fois",
+    "badge_new": "🥉 Nouveau",
+    "badge_active": "🥈 Actif",
+    "badge_generous": "🥇 Généreux",
+    "card_footer": "Carte donneur",
+
+    "tab_assoc_title": "Associations",
+    "tab_assoc_sub": "Choisissez une cause et faites la différence",
+    "assoc_search_ph": "Rechercher une association...",
+    "assoc_empty": "Aucune association trouvée",
+    "assoc_no_desc": "Aucune description.",
+    "assoc_cta": "Voir bénéficiaires",
+
+    "tab_benef_title_prefix": "Bénéficiaires - ",
+    "tab_benef_available": "bénéficiaire(s) disponible(s)",
+    "benef_search_ph": "Rechercher un bénéficiaire...",
+    "benef_empty": "Aucun bénéficiaire disponible pour le moment.",
+    "benef_btn_back": "Retour",
+    "benef_collected": "Collecté :",
+    "benef_target": "Objectif :",
+    "benef_to_collect": "À collecter",
+    "benef_remaining": "Restant",
+    "btn_close_form": "✕ Fermer le formulaire",
+    "btn_donate": " Faire un don",
+    
+    "don_panel_idle": "Sélectionnez un bénéficiaire pour faire un don",
+    "don_form_title": "Don pour",
+    "don_progress": "Progression",
+    "don_remaining": "restant",
+    "don_label_quick": "Montant rapide",
+    "don_label_custom": "Montant personnalisé",
+    "don_label_bank": "Numéro bancaire",
+    "don_label_msg": "Message",
+    "don_msg_opt": "(optionnel)",
+    "don_msg_ph": "Un mot d'encouragement...",
+    "btn_confirm_don": " Confirmer le don",
+    "btn_processing": " Traitement...",
+    "don_secure": "🔒 Paiement sécurisé et vérifié"
+  },
+  "common": {
+    "beneficiary_space": "Espace Bénéficiaire"
+  },
+   "dashboardBenef": {
+    "sidebar_card": "Mon card",
+    "sidebar_donors": "Liste des donneurs",
+    "sidebar_security": "Sécurité",
+    "sidebar_messages": "Messages reçus",
+    "sidebar_logout": "Déconnexion",
+    "card_role": "Bénéficiaire",
+    "card_footer": "Carte bénéficiaire",
+    
+    "label_email": "Email",
+    "label_phone": "Téléphone",
+    "label_cin": "CIN",
+    "label_birthdate": "Date naissance",
+    "label_gender": "Genre",
+    "label_situation": "Situation",
+    "label_address": "Adresse",
+    "label_association": "Association",
+    "label_description": "Description",
+    "label_status": "Statut",
+    "status_active": "Actif",
+
+    "pwd_title": "Sécurité du compte",
+    "pwd_sub": "Changez votre mot de passe en toute sécurité",
+    "pwd_old": "Ancien mot de passe",
+    "pwd_new": "Nouveau mot de passe",
+    "pwd_confirm": "Confirmer le mot de passe",
+    "pwd_error_mismatch": "Les mots de passe ne correspondent pas",
+    "pwd_error_short": "Mot de passe trop court (min 4 caractères)",
+    "pwd_error_required": "Tous les champs sont obligatoires",
+    "pwd_btn_update": "Mettre à jour",
+    "pwd_btn_loading": "Chargement...",
+    "pwd_success": "Mot de passe modifié",
+
+    "donors_title": "Liste des donneurs",
+    "donors_subtitle": "Historique des dons reçus.",
+    
+    "kpi_collected": "Montant collecté",
+    "kpi_target": "Montant à collecter",
+    "kpi_remaining": "Montant restant",
+    "kpi_count": "Nombre de dons",
+    
+    "alert_goal_reached": "Objectif atteint : le montant a été entièrement collecté.",
+    
+    "donations_card_title": "Dons reçus",
+    "donations_card_desc": "Noms des donneurs et montants.",
+    "donations_loading": "Chargement…",
+    "donations_count": "{count} donneur(s)",
+    
+    "empty_donations_title": "Aucun don pour le moment",
+    "empty_donations_text": "Quand un donneur vous aide, la liste apparaîtra ici.",
+    
+    "donor_donations": "don(s)",
+    
+    "messages_title": "Messages reçus",
+    "messages_subtitle": "Les messages d'encouragement envoyés par les donneurs.",
+    "messages_head_title": "Encouragements",
+    "messages_head_sub": "Réagissez aux messages des donneurs.",
+    "messages_count": "{count} message(s)",
+    
+    "empty_messages_title": "Aucun message pour le moment",
+    "empty_messages_text": "Quand un donneur ajoute un message, il apparaîtra ici."
+  },
+  "common": {
+    "search_placeholder": "Rechercher...",
+    "beneficiary_space": "Espace Bénéficiaire",
+    "donor_space": "Espace Donateur",
+    "lawyer_panel": "Espace Juriste",
+    "admin_panel": "Espace Administrateur",
+    "confirm_accept": "Confirmer l'acceptation",
+    "confirm_refuse": "Confirmer le refus",
+    "alert_success": "Action réussie",
+    "alert_error": "Une erreur est survenue",
+    "are_you_sure": "Êtes-vous sûr de vouloir",
+    "error_update": "Une erreur est survenue lors de la mise à jour.",
+     "back": "Retour à la liste",
+  "are_you_sure": "Êtes-vous sûr de vouloir",
+  "error_update": "Une erreur est survenue lors de la mise à jour.",
+  "error_fetch": "Une erreur est survenue lors de la récupération des données.",
+  "error_loading": "Chargement...",
+  "error_title": "Erreur",
+  "success_title": "Succès",
+   "close": "Fermer",
+    "loading": "Chargement...",
+    "error_title": "Erreur",
+    "server_error": "Erreur serveur",
+    "file_too_large_title": "Fichier trop lourd",
+    "file_too_large_text": "Maximum 5 Mo par fichier."
+  },
+  "dashboardAdmin": {
+    "sidebar_requests": " Demandes",
+    "sidebar_associations": "Associations",
+    "sidebar_beneficiaries": "Bénéficiaires",
+    "sidebar_donors": "Donneurs",
+    "sidebar_users": "Utilisateurs",
+    "sidebar_categories": "Catégories",
+    "sidebar_lawyer": "Avocat",
+    "sidebar_reports": "Rapports / Analyse",
+    "sidebar_logout": "Déconnexion",
+    "are_you_sure Bloquer ?": "Êtes-vous sûr de vouloir bloquer ?",
+ "tooltip_illegal_blocked": "Bloqué : demande marquée illégale par l'avocat",
+    "error_illegal_validation": "⚠️ Impossible de valider : cette demande a été marquée ILLÉGALE par l'avocat.",
+    "tab_analytics_title": "Tableau de Bord Analytique",
+    "tab_analytics_sub": "Indicateurs clés de performance et tendances d'activité.",
+    
+    "kpi_total_requests": "Total Demandes",
+    "kpi_pending": "en attente",
+    "kpi_associations": "Associations",
+    "kpi_blocked": "bloquées",
+    "kpi_collected": "Dons Collectés",
+    "kpi_volume": "Volume total",
+    "kpi_active_donors": "Donneurs Actifs",
+    "kpi_registered": "Inscrits totaux",
+
+    "chart_status_title": "Statut des Demandes",
+    "chart_assoc_status_title": "État des Associations",
+    "chart_users_title": "Répartition Utilisateurs",
+    "chart_activity_title": "Tendance d'Activité",
+    "chart_top_donors_title": "Top 12 Donneurs (Montants)",
+
+    "tab_requests_title": "Demandes d'adhésion",
+    "tab_requests_sub": "Validez les dossiers des associations et consultez les pièces jointes.",
+    "search_placeholder": "Rechercher...",
+    
+    "status_pending": "En attente",
+    "status_accepted": "Validé",
+    "status_refused": "Refusé",
+    
+    "btn_view_docs": "Voir les documents",
+    "btn_hide_docs": "Masquer les documents",
+    "btn_validate": "Valider",
+    "btn_refuse": "Refuser",
+    
+    "doc_statut": "Statut",
+    "doc_autorisation": "Autorisation",
+    "doc_registre": "Registre",
+    "doc_cin": "CIN Président",
+
+    "tab_users_title": "Annuaire Utilisateurs",
+    "tab_users_sub": "Gestion centralisée des acteurs de la plateforme.",
+    "filter_all_roles": "Tous les rôles",
+    "role_association": "Association",
+    "role_donor": "Donneur",
+    "role_beneficiary": "Bénéficiaire",
+    "breakdown_title": "Répartition",
+    "total_users": "utilisateurs",
+    "member_since": "Membre depuis",
+    "no_users_found": "Aucun utilisateur trouvé.",
+
+    "tab_assoc_title": "Associations Partenaires",
+    "tab_assoc_sub": "Gérez les statuts et consultez les fiches des associations.",
+    "status_active": "Active",
+    "status_blocked": "Bloquée",
+    "btn_block": "Bloquer",
+    "btn_unblock": "Débloquer",
+    "registered_on": "Inscrit le",
+
+    "tab_donors_title": "Donneurs",
+    "tab_donors_sub": "Liste des contributeurs et historique des dons.",
+    "total_given": "Total Donné",
+
+    "tab_benef_title": "Bénéficiaires",
+    "tab_benef_sub": "Suivi des dossiers sociaux et objectifs financiers.",
+    "phone": "Téléphone",
+    "address": "Adresse",
+    "birth_date": "Naissance",
+    "situation": "Situation",
+    "target": "Objectif",
+    "remaining": "Reste",
+    "associated_with": "Associé à :",
+    "no_association": "Aucune association",
+
+    "tab_lawyer_title": "Créer un compte Avocat",
+    "tab_lawyer_sub": "Générez un accès sécurisé. Une invitation par email sera envoyée instantanément.",
+    "lawyer_name_label": "Nom complet",
+    "lawyer_email_label": "Email professionnel",
+    "lawyer_btn_create": "Créer l'avocat",
+    "lawyer_note": "° L'avocat recevra un lien sécurisé pour définir son mot de passe.",
+    "lawyer_success": "✅ Avocat créé & invitation envoyée !",
+    "lawyer_error_fill": "⚠️ Veuillez remplir tous les champs",
+    "lawyer_error_name_short": "Minimum 2 caractères",
+    "lawyer_error_email_invalid": "Format email invalide"
+  },
+    "chatbot": {
+  "welcome": "Bonjour ! Je suis votre assistant. Posez votre question.",
+  "placeholder": "Posez votre question...",
+  "send": "Envoyer",
+  "typing": "Le bot écrit...",
+  "error": "Désolé, je n'ai pas compris.",
+  "serverError": "Erreur serveur. Réessayez plus tard.",
+  "qa": {
+    "comment faire un don ?": "Vous pouvez faire un don en remplissant le formulaire disponible sur notre site.",
+    "comment soumettre une demande ?": "Vous pouvez soumettre une demande en remplissant le formulaire de demande de l'association.",
+    "comment contacter une association ?": "Vous pouvez contacter une association par email ou téléphone depuis la page de l'association.",
+    "quels types de dons puis-je faire ?": "Vous pouvez faire des dons financiers, des dons matériels ou offrir votre temps comme bénévole.",
+    "comment suivre mes dons ?": "Connectez-vous à votre compte et consultez l'historique de vos dons.",
+    "puis-je annuler un don ?": "Malheureusement, une fois le don validé, il ne peut pas être annulé. Contactez le support pour plus d'informations.",
+    "comment devenir bénévole ?": "Remplissez le formulaire de bénévolat disponible sur notre site et l'association vous contactera.",
+    "comment fonctionne la plateforme ?": "La plateforme permet de consulter les associations, faire des dons et suivre les bénéficiaires.",
+    "quels documents fournir pour une demande ?": "Pour une demande, vous devez fournir une pièce d'identité et tout document justificatif demandé par l'association.",
+    "comment signaler un problème ?": "Utilisez le formulaire de contact ou envoyez un email au support pour signaler tout problème.",
+    "comment créer un compte ?": "Cliquez sur \"Inscription\", remplissez vos informations, puis validez. Vous pourrez ensuite vous connecter.",
+    "j'ai oublié mon mot de passe, que faire ?": "Cliquez sur \"Mot de passe oublié\" sur la page de connexion et suivez les instructions.",
+    "comment modifier mon profil ?": "Une fois connecté, allez dans votre espace \"Profil\" pour mettre à jour vos informations.",
+    "comment changer mon mot de passe ?": "Dans votre profil, ouvrez la section \"Sécurité\" puis choisissez un nouveau mot de passe.",
+    "comment trouver une association ?": "Utilisez la barre de recherche ou les filtres (ville, catégorie, besoins) pour trouver une association.",
+    "puis-je filtrer par ville ou catégorie ?": "Oui, vous pouvez filtrer les associations par ville, catégorie et type de besoins.",
+    "où voir les détails d'une association ?": "Ouvrez la page de l'association : vous y verrez sa description, ses besoins et ses coordonnées.",
+    "comment faire un don matériel ?": "Sélectionnez \"Don matériel\", indiquez les articles et quantités, puis suivez les étapes de dépôt/livraison.",
+    "comment faire un don financier ?": "Choisissez \"Don financier\", saisissez le montant, puis confirmez le paiement selon les options proposées.",
+    "est-ce que je reçois une confirmation de don ?": "Oui, après validation vous recevez une confirmation et vous retrouvez le don dans votre historique.",
+    "le don est-il sécurisé ?": "Oui, nous utilisons des mesures de sécurité pour protéger vos informations et vos transactions.",
+    "puis-je faire un don anonyme ?": "Selon les options disponibles, vous pouvez choisir de masquer votre nom à l'association.",
+    "comment soumettre une demande d'aide ?": "Allez dans \"Faire une demande\", remplissez le formulaire, puis ajoutez les justificatifs demandés.",
+    "comment savoir si ma demande est acceptée ?": "Vous recevrez une notification et vous pourrez suivre le statut dans votre espace personnel.",
+    "quels sont les statuts possibles d'une demande ?": "En général : En attente, En cours de traitement, Acceptée, Refusée, Clôturée."
+  }
+},
+  "dashboardLawyer": {
+    "sidebar_requests": "Demandes",
+    "sidebar_security": "Sécurité",
+    "sidebar_logout": "Déconnexion",
+    
+    "tab_requests_title": "Demandes juridiques",
+    "tab_requests_sub": "Analysez et classifiez les demandes des associations.",
+    
+    "stat_pending": "En attente",
+    "stat_pending_hint": "À traiter",
+    "stat_legal": "Légales",
+    "stat_legal_hint": "Validées",
+    "stat_illegal": "Illégales",
+    "stat_illegal_hint": "Rejetées",
+    "stat_total": "Total",
+    "stat_total_hint": "Toutes",
+    
+    "filter_pending": "En attente",
+    "filter_legal": "Légales",
+    "filter_illegal": "Illégales",
+    "filter_all": "Tout",
+    
+    "search_placeholder": "Rechercher association ou email...",
+    
+    "empty_state": "Aucune demande ne correspond à vos critères.",
+    
+    "btn_legal": "Légale",
+    "btn_illegal": "Illégale",
+    "btn_docs": "Docs",
+    
+    "docs_header": "Documents joints",
+    "doc_statut": "Statut",
+    "doc_autorisation": "Autorisation",
+    "doc_registre": "Registre",
+    "doc_cin": "CIN",
+    
+    "pwd_title": "Sécurité du compte",
+    "pwd_sub": "Changez votre mot de passe régulièrement pour sécuriser votre accès.",
+    "pwd_old": "Ancien mot de passe",
+    "pwd_new": "Nouveau mot de passe",
+    "pwd_confirm": "Confirmer le nouveau mot de passe",
+    "pwd_error_required": "Tous les champs sont requis",
+    "pwd_error_mismatch": "Les nouveaux mots de passe ne correspondent pas",
+    "pwd_error_length": "Le nouveau mot de passe doit contenir au moins 6 caractères",
+    "pwd_error_same": "Le nouveau mot de passe doit être différent de l'ancien",
+    "pwd_success": "Mot de passe modifié avec succès",
+    "pwd_btn_update": "Mettre à jour",
+    "pwd_btn_loading": "Traitement..."
+  },
+  "login": {
+    "badge": "Accès sécurisé",
+    "title": "Bienvenue",
+    "subtitle": "Connectez-vous pour accéder à votre espace DON'ACT",
+        "account_blocked": "Désolé votre association est bloquée, veuillez contacter l'admin"
+,
+    "label_email": "Adresse email",
+    "placeholder_email": "votreemail@exemple.com",
+    
+    "label_password": "Mot de passe",
+    "placeholder_password": "••••••••••••",
+    "forgot_password": "Mot de passe oublié ?",
+    
+    "btn_submit": "Entrer dans DON'ACT",
+    "btn_loading": "Connexion en cours...",
+    
+    "error_title": "Authentification échouée",
+    
+    "footer_new_beneficiary": "Nouveau bénéficiaire ?",
+    "footer_link_demande": "Faire une demande",
+    
+    "footer_first_visit": "Première visite ?",
+    "footer_link_about": "Découvrir DON'ACT"
+  },
+   "stripe": {
+    "logo_alt": "Stripe",
+    "test_mode": "MODE TEST",
+    "setup": {
+      "title": "Activez votre compte de paiement",
+      "subtitle": "Recevez les dons directement sur votre compte bancaire via Stripe — <0>sécurisé</0>, <1>instantané</1>, sans frais cachés.",
+      "badges": {
+        "ssl": "SSL 256-bit",
+        "pci": "PCI-DSS",
+        "sepa": "🌍 SEPA"
+      },
+      "features": {
+        "auto_transfer": {
+          "title": "Virement automatique",
+          "desc": "Retirez vos fonds en 1-2 jours ouvrables"
+        },
+        "dashboard": {
+          "title": "Tableau de bord complet",
+          "desc": "Suivez chaque don et chaque virement en temps réel"
+        },
+        "sandbox": {
+          "title": "Environnement test",
+          "desc": "Sandbox Stripe réaliste sans risque"
+        }
+      },
+      "btn_connect": "Connecter mon compte bancaire",
+      "form_title": "Informations bancaires",
+      "form_note": "🧪 Mode test — aucune donnée réelle envoyée",
+      "fields": {
+        "titular": {
+          "label": "Titulaire du compte",
+          "placeholder": "Nom de l'association ou du bénéficiaire"
+        },
+        "bank": {
+          "label": "Banque",
+          "placeholder": "Sélectionner une banque"
+        },
+        "iban": {
+          "label": "IBAN (format test)",
+          "placeholder": "TN59 0000 0000 0000 0000 0000",
+          "hint": "Ex: TN59 1000 6000 0000 0000 0000"
+        }
+      },
+      "btn_back": "← Retour",
+      "btn_activate": "Activer le compte Stripe"
+    },
+    "dashboard": {
+      "tabs": {
+        "overview": "Aperçu",
+        "withdraw": "Virement"
+      },
+      "balance": {
+        "available": "Solde disponible",
+        "ready": "Prêt pour virement",
+        "collected": "Total collecté",
+        "donations_received": "dons reçus",
+        "pending": "En cours",
+        "pending_desc": "Virements en attente",
+        "fees": "Frais Stripe",
+        "fees_desc": "2.9% + 0.30 DT / don"
+      },
+      "account": {
+        "title": "Compte bancaire lié",
+        "verified": "Vérifié",
+        "titular": "Titulaire",
+        "bank": "Banque",
+        "iban": "IBAN",
+        "activated": "Activé le"
+      },
+      "transactions": {
+        "title": "Transactions récentes",
+        "count": "dons",
+        "empty_title": "Aucun don reçu pour le moment",
+        "empty_desc": "Les dons apparaîtront ici automatiquement",
+        "anonymous": "Donneur anonyme",
+        "net": "net",
+        "paid": "payé"
+      },
+      "withdrawals": {
+        "title": "Historique des virements",
+        "bank_transfer": "Virement bancaire",
+        "completed": "complété",
+        "pending": "en cours"
+      }
+    },
+    "withdraw": {
+      "title": "Initier un virement",
+      "to_bank": "Vers",
+      "available": "Disponible",
+      "amount_label": "Montant à retirer (DT)",
+      "amount_placeholder": "0.00",
+      "quick_amounts": {
+        "all": "Tout"
+      },
+      "summary": {
+        "amount": "Montant",
+        "delay": "Délai estimé",
+        "delay_value": "1-2 jours ouvrables",
+        "you_receive": "Vous recevrez"
+      },
+      "btn_cancel": "← Annuler",
+      "btn_confirm": "Confirmer le virement",
+      "btn_processing": "Traitement…",
+      "note": "Mode test — aucun virement réel effectué • Données chiffrées de bout en bout"
+    },
+    "toast": {
+      "setup_success": "🎉 Compte Stripe activé avec succès !",
+      "withdraw_success": "💸 Virement de {amount} initié !",
+      "error_fill": "Veuillez remplir tous les champs",
+      "error_invalid": "Montant invalide",
+      "error_insufficient": "Solde insuffisant",
+      "error_min": "Minimum 10 DT requis"
+    }
+  },
+  "lang": {
+    "fr": "Français",
+    "en": "English",
+    "ar": "العربية"
+  }
+}
