@@ -836,7 +836,9 @@
     "error_title": "Erreur",
     "server_error": "Erreur serveur",
     "file_too_large_title": "Fichier trop lourd",
-    "file_too_large_text": "Maximum 5 Mo par fichier."
+    "file_too_large_text": "Maximum 5 Mo par fichier.",
+    "close": "Fermer",
+    "loading": "Chargement..."
   },
   "dashboardAdmin": {
     "sidebar_requests": " Demandes",
@@ -967,6 +969,39 @@
     "quels sont les statuts possibles d'une demande ?": "En général : En attente, En cours de traitement, Acceptée, Refusée, Clôturée."
   }
 },
+ "map": {
+    "title": "Carte des Associations",
+    "located": "localisées sur",
+    "registered": "enregistrées",
+    "loading": "Chargement de la carte…",
+    "ariaLabel": "Carte interactive des associations"
+  },
+  "search": {
+    "placeholder": "Rechercher une association...",
+    "label": "Rechercher",
+    "clear": "Effacer la recherche"
+  },
+  "categories": {
+    "all": "Toutes",
+    "Éducation": "Éducation",
+    "Santé": "Santé",
+    "Environnement": "Environnement",
+    "Humanitaire": "Humanitaire",
+    "Culture": "Culture",
+    "Sport": "Sport",
+    "Social": "Social"
+  },
+  "sidebar": {
+    "expand": "Ouvrir le panneau",
+    "collapse": "Fermer le panneau",
+    "results": "résultat",
+    "results_plural": "résultats",
+    "empty": "Aucune association trouvée"
+  },
+  "assoc": {
+    "noLocation": "Pas de coordonnées GPS",
+    "viewProfile": "Voir le profil"
+  },
   "dashboardLawyer": {
     "sidebar_requests": "Demandes",
     "sidebar_security": "Sécurité",

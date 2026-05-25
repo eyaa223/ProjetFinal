@@ -17,12 +17,27 @@ i18n
       ar: { translation: ar },
     },
     fallbackLng: 'fr',
-    lng: localStorage.getItem('i18nextLng') || 'fr',
-    interpolation: { escapeValue: false },
+    supportedLngs: ['fr', 'en', 'ar'],
+    lng: undefined, // ✅ Laisse LanguageDetector gérer la langue
+    interpolation: { 
+      escapeValue: false // React échappe déjà les valeurs
+    },
     detection: {
-      order: ['localStorage', 'navigator'],
+      order: ['localStorage', 'navigator', 'htmlTag'],
       caches: ['localStorage'],
+      lookupLocalStorage: 'i18nextLng',
+    },
+    // ✅ Optionnel : chargement plus rapide
+    react: {
+      useSuspense: false,
     },
   });
+
+// ✅ Mise à jour automatique de l'attribut lang sur <html>
+i18n.on('languageChanged', (lng) => {
+  const isAr = lng.startsWith('ar');
+  document.documentElement.lang = lng;
+  document.documentElement.dir = isAr ? 'rtl' : 'ltr';
+});
 
 export default i18n;

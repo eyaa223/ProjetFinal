@@ -642,7 +642,9 @@
     "error_title": "خطأ",
     "server_error": "خطأ في الخادم",
     "file_too_large_title": "الملف كبير جداً",
-    "file_too_large_text": "الحد الأقصى 5 ميجا بايت لكل ملف."
+    "file_too_large_text": "الحد الأقصى 5 ميجا بايت لكل ملف.",
+    "close": "إغلاق",
+    "loading": "جاري التحميل..."
   },
   "dashboardLawyer": {
     "sidebar_requests": "الطلبات",
@@ -693,6 +695,39 @@
     "pwd_btn_update": "تحديث",
     "pwd_btn_loading": "جاري المعالجة..."
   },
+    "map": {
+    "title": "خريطة الجمعيات",
+    "located": "محددة موقعياً من أصل",
+    "registered": "مسجلة",
+    "loading": "جاري تحميل الخريطة…",
+    "ariaLabel": "خريطة تفاعلية للجمعيات"
+  },
+  "search": {
+    "placeholder": "ابحث عن جمعية...",
+    "label": "بحث",
+    "clear": "مسح البحث"
+  },
+  "categories": {
+    "all": "الكل",
+    "Éducation": "التعليم",
+    "Santé": "الصحة",
+    "Environnement": "البيئة",
+    "Humanitaire": "إنساني",
+    "Culture": "الثقافة",
+    "Sport": "الرياضة",
+    "Social": "اجتماعي"
+  },
+  "sidebar": {
+    "expand": "فتح اللوحة",
+    "collapse": "إغلاق اللوحة",
+    "results": "نتيجة",
+    "results_plural": "نتائج",
+    "empty": "لم يتم العثور على جمعيات"
+  },
+  "assoc": {
+    "noLocation": "بدون إحداثيات جغرافية",
+    "viewProfile": "عرض الملف الشخصي"
+  } ,
    "dashboardDonor": {
     "sidebar_profile": "الملف الشخصي",
     "sidebar_donations": "تبرعاتي",

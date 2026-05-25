@@ -24,6 +24,8 @@ import SetPassword from './pages/SetPassword';
 import Chatbot from './pages/Chatbot';
 import ChatbotWidget from './components/ChatbotWidget'; 
 import TopDonateurs from "./pages/TopDonateurs";
+import MapPage from './pages/MapPage';
+
 
 function App() {
   return (
@@ -52,6 +54,7 @@ function App() {
             <Route path="/forgot-password" element={<ForgotPassword />} />
 <Route path="/reset-password/:token" element={<ResetPassword />} />
             <Route path="/top-donateurs" element={<TopDonateurs />} />
+<Route path="/carte" element={<MapPage />} />
           </Routes>
         </Router>
       </ThemeProvider>

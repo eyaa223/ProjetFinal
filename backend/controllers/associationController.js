@@ -71,6 +71,8 @@ export const getPublicAssociations = async (req, res) => {
         a.logo,
         a.description,
         a.created_at,
+        a.latitude,
+a.longitude,
         -- ✅ AJOUT : Compter les bénéficiaires par association
         (SELECT COUNT(*) FROM beneficiaires b WHERE b.association_id = a.id) AS beneficiaries_count
       FROM associations a

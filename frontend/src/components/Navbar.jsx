@@ -232,6 +232,7 @@ const Navbar = () => {
         <div className="nav-links">
           <Link to="/" className="nav-link">{t('nav.home')}</Link>
           <Link to="/about" className="nav-link">{t('nav.about')}</Link>
+          <Link to="/carte" className="nav-link"> Carte</Link>
 
           {/* Dropdown Demande */}
           <div className="nav-dropdown" ref={demandesDesktopRef}>
@@ -390,6 +391,9 @@ const Navbar = () => {
       <div className={`nav-mobile${mobileOpen ? ' nav-mobile--open' : ''}`}>
         <Link to="/" className="nav-mobile-link" onClick={() => setMobileOpen(false)}>{t('nav.home')}</Link>
         <Link to="/about" className="nav-mobile-link" onClick={() => setMobileOpen(false)}>{t('nav.about')}</Link>
+        <Link to="/carte" className="nav-mobile-link" onClick={() => setMobileOpen(false)}>
+   Carte des Associations
+</Link>
 
         {/* Mobile search */}
         <div className="nav-search nav-search--mobile">

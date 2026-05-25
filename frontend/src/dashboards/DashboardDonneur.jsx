@@ -1249,112 +1249,390 @@ const DashboardDonneur = () => {
 )}
 
                 {/* BENEFICIAIRES */}
-                {activeTab === 'beneficiaires' && selectedAssoc && (
-                  <div className="ac-page">
-                    <div className="ac-page__head">
-                      <div>
-                        <button className="ac-back" onClick={() => setActiveTab('associations')}>← {t('dashboardDonor.sidebar_back_assoc')}</button>
-                        <h1 className="ac-page__title">{selectedAssoc.nom}</h1>
-                        <p className="ac-page__sub">{filteredBeneficiaires.length} {t('dashboardDonor.tab_benef_available')}</p>
-                      </div>
-                      <div className="ac-search-bar">
-                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
-                        <input type="text" placeholder={t('dashboardDonor.benef_search_ph')} value={search} onChange={(e) => setSearch(e.target.value)} />
-                      </div>
-                    </div>
-                    {filteredBeneficiaires.length === 0 ? (
-                      <div className="ac-empty"><div className="ac-empty__icon">🎯</div><p>{t('dashboardDonor.benef_empty')}</p><button className="ac-btn ac-btn--ghost" onClick={() => setActiveTab('associations')}>{t('dashboardDonor.benef_btn_back')}</button></div>
-                    ) : (
-                      <div className="ac-benef-layout">
-                        <div className="ac-benef-list">
-                          {filteredBeneficiaires.map((b) => {
-                            const pct = getProgressPercent(b);
-                            const isSelected = donTarget?.id === b.id && donPanelOpen;
-                            return (
-                              <div key={b.id} className={`ac-benef-card ${isSelected ? 'ac-benef-card--selected' : ''}`}>
-                                <div className="ac-benef-card__top">
-                                  <div className="ac-benef-card__avatar">{(b.nom?.[0] || '?').toUpperCase()}</div>
-                                  <div className="ac-benef-card__info">
-                                    <div className="ac-benef-card__name">{b.nom} {b.prenom}</div>
-                                    <div className="ac-benef-card__tags">
-                                      {b.cin && <span className="ac-tag">🪪 {b.cin}</span>}
-                                      {b.telephone && <span className="ac-tag">📞 {b.telephone}</span>}
-                                    </div>
-                                  </div>
-                                  <span className={`ac-pct ${pct<=35?'ac-pct--low':pct<=65?'ac-pct--mid':'ac-pct--high'}`}>{pct.toFixed(0)}%</span>
-                                </div>
-                                <div className="ac-prog">
-                                  <div className="ac-prog__track"><div className="ac-prog__fill" style={{ width: `${pct}%` }} /></div>
-                                  <div className="ac-prog__labels">
-                                    <span>{t('dashboardDonor.benef_collected')} {(Number(b.montant_a_collecter||0) - Number(b.montant_restant||0)).toFixed(0)} DT</span>
-                                    <span className="ac-prog__target">{t('dashboardDonor.benef_target')} {b.montant_a_collecter} DT</span>
-                                  </div>
-                                </div>
-                                <div className="ac-benef-card__amounts">
-                                  <div className="ac-amount-box"><span>{t('dashboardDonor.benef_to_collect')}</span><strong>{b.montant_a_collecter} DT</strong></div>
-                                  <div className="ac-amount-box ac-amount-box--accent"><span>{t('dashboardDonor.benef_remaining')}</span><strong>{b.montant_restant} DT</strong></div>
-                                </div>
-                                <button className={`ac-btn ac-btn--primary ac-btn--block ${isSelected ? 'ac-btn--selected' : ''}`} onClick={() => isSelected ? closeDonPanel() : openDonPanel(b)}>{isSelected ? t('dashboardDonor.btn_close_form') : t('dashboardDonor.btn_donate')}</button>
-                              </div>
-                            );
-                          })}
-                        </div>
-                        <aside className={`ac-don-panel ${donPanelOpen && donTarget ? 'ac-don-panel--open' : ''}`}>
-                          {!donPanelOpen || !donTarget ? (
-                            <div className="ac-don-panel__idle"><div className="ac-don-panel__idle-icon">❤️</div><p>{t('dashboardDonor.don_panel_idle')}</p></div>
-                          ) : (
-                            <form className="ac-don-form" onSubmit={submitInlineDon}>
-                              <div className="ac-don-form__head">
-                                <div className="ac-don-form__avatar">{(donTarget.nom?.[0]||'?').toUpperCase()}</div>
-                                <div>
-                                  <div className="ac-don-form__title">{t('dashboardDonor.don_form_title')}</div>
-                                  <div className="ac-don-form__name">{donTarget.nom} {donTarget.prenom}</div>
-                                </div>
-                                <button className="ac-don-form__close" type="button" onClick={closeDonPanel} disabled={donSubmitting}>×</button>
-                              </div>
-                              <div className="ac-don-mini-prog">
-                                <div className="ac-don-mini-prog__top">
-                                  <span>{t('dashboardDonor.don_progress')}</span>
-                                  <span><strong>{getProgressPercent(donTarget).toFixed(0)}%</strong> — {Number(donTarget.montant_restant||0).toFixed(0)} DT {t('dashboardDonor.don_remaining')}</span>
-                                </div>
-                                <div className="ac-prog__track"><div className="ac-prog__fill" style={{ width: `${getProgressPercent(donTarget)}%` }} /></div>
-                              </div>
-                              {donError && <div className="ac-alert ac-alert--error">{donError}</div>}
-                              {donSuccess && <div className="ac-alert ac-alert--success">{donSuccess}</div>}
-                              <div className="ac-don-section">
-                                <div className="ac-don-label">{t('dashboardDonor.don_label_quick')}</div>
-                                <div className="ac-quick-amounts">
-                                  {QUICK_AMOUNTS.map((a) => (
-                                    <button key={a} type="button" className={`ac-qa-btn ${String(a)===String(donMontant)?'ac-qa-btn--active':''}`} onClick={() => setDonMontant(String(a))} disabled={donSubmitting}>{a} DT</button>
-                                  ))}
-                                </div>
-                              </div>
-                              <div className="ac-don-section">
-                                <div className="ac-don-label">{t('dashboardDonor.don_label_custom')}</div>
-                                <div className="ac-input-wrap">
-                                  <input className="ac-input" type="number" min="1" value={donMontant} onChange={(e) => setDonMontant(e.target.value)} placeholder="0" disabled={donSubmitting} />
-                                  <span className="ac-input-suffix">DT</span>
-                                </div>
-                              </div>
-                              <div className="ac-don-section">
-                                <div className="ac-don-label">{t('dashboardDonor.don_label_bank')}</div>
-                                <input className="ac-input ac-mono" type="text" value={donNumeroBancaire} onChange={(e) => setDonNumeroBancaire(e.target.value)} placeholder="XXXX XXXX XXXX XXXX" disabled={donSubmitting} />
-                              </div>
-                              <div className="ac-don-section">
-                                <div className="ac-don-label">{t('dashboardDonor.don_label_msg')} <span className="ac-don-label__opt">{t('dashboardDonor.don_msg_opt')}</span></div>
-                                <input className="ac-input" type="text" value={donMessage} onChange={(e) => setDonMessage(e.target.value)} placeholder={t('dashboardDonor.don_msg_ph')} maxLength={250} disabled={donSubmitting} />
-                              </div>
-                              <button className="ac-btn ac-btn--primary ac-btn--block ac-btn--lg" type="submit" disabled={donSubmitting || !donMontant}>
-                                {donSubmitting ? <><span className="ac-spinner" /> {t('dashboardDonor.btn_processing')}</> : ` ${t('dashboardDonor.btn_confirm_don').replace('le don', donMontant+' DT')}`}
-                              </button>
-                              <div className="ac-don-secure">{t('dashboardDonor.don_secure')}</div>
-                            </form>
-                          )}
-                        </aside>
-                      </div>
-                    )}
+               {activeTab === 'beneficiaires' && selectedAssoc && (
+  <div className="bf-page">
+
+    {/* ── HEADER ── */}
+    <div className="bf-header">
+      <div className="bf-header__left">
+        <button className="bf-back" onClick={() => setActiveTab('associations')}>
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2">
+            <path d="M19 12H5M12 5l-7 7 7 7"/>
+          </svg>
+          {t('dashboardDonor.sidebar_back_assoc')}
+        </button>
+        <div className="bf-header__assoc">
+          <div className="bf-header__assocIcon">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8">
+              <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/>
+              <circle cx="9" cy="7" r="4"/>
+              <path d="M23 21v-2a4 4 0 0 0-3-3.87"/>
+              <path d="M16 3.13a4 4 0 0 1 0 7.75"/>
+            </svg>
+          </div>
+          <div>
+            <h1 className="bf-header__title">{selectedAssoc.nom}</h1>
+            <p className="bf-header__count">
+              <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                <circle cx="12" cy="12" r="10"/>
+                <line x1="12" y1="8" x2="12" y2="12"/>
+                <line x1="12" y1="16" x2="12.01" y2="16"/>
+              </svg>
+              {filteredBeneficiaires.length} {t('dashboardDonor.tab_benef_available')}
+            </p>
+          </div>
+        </div>
+      </div>
+      <div className="bf-search">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+          <circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/>
+        </svg>
+        <input
+          type="text"
+          placeholder={t('dashboardDonor.benef_search_ph')}
+          value={search}
+          onChange={(e) => setSearch(e.target.value)}
+        />
+      </div>
+    </div>
+
+    {/* ── EMPTY ── */}
+    {filteredBeneficiaires.length === 0 ? (
+      <div className="bf-empty">
+        <div className="bf-empty__icon">
+          <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.3">
+            <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/>
+            <circle cx="9" cy="7" r="4"/>
+            <line x1="23" y1="11" x2="17" y2="11"/>
+          </svg>
+        </div>
+        <p className="bf-empty__txt">{t('dashboardDonor.benef_empty')}</p>
+        <button className="bf-btn bf-btn--ghost" onClick={() => setActiveTab('associations')}>
+          <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2">
+            <path d="M19 12H5M12 5l-7 7 7 7"/>
+          </svg>
+          {t('dashboardDonor.benef_btn_back')}
+        </button>
+      </div>
+    ) : (
+      <div className={`bf-layout ${donPanelOpen ? 'bf-layout--panel' : ''}`}>
+
+        {/* ── LISTE BÉNÉFICIAIRES ── */}
+        <div className="bf-list">
+          {filteredBeneficiaires.map((b, i) => {
+            const pct       = getProgressPercent(b);
+            const collected = Number(b.montant_a_collecter || 0) - Number(b.montant_restant || 0);
+            const isSelected = donTarget?.id === b.id && donPanelOpen;
+            const progressColor = pct <= 35 ? '#ef4444' : pct <= 65 ? '#f59e0b' : '#22c55e';
+
+            return (
+              <div
+                key={b.id}
+                className={`bf-card ${isSelected ? 'bf-card--selected' : ''}`}
+                style={{ animationDelay: `${i * 0.05}s` }}
+              >
+                {/* TOP */}
+                <div className="bf-card__top">
+                  <div className="bf-card__avatar" style={{ '--av-idx': i }}>
+                    {(b.nom?.[0] || '?').toUpperCase()}
                   </div>
+                  <div className="bf-card__info">
+                    <div className="bf-card__name">{b.nom} {b.prenom}</div>
+                    <div className="bf-card__tags">
+                      {b.cin && (
+                        <span className="bf-tag">
+                          <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                            <rect x="2" y="5" width="20" height="14" rx="2"/>
+                            <line x1="2" y1="10" x2="22" y2="10"/>
+                          </svg>
+                          {b.cin}
+                        </span>
+                      )}
+                      {b.telephone && (
+                        <span className="bf-tag">
+                          <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                            <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.61 3.4 2 2 0 0 1 3.6 1h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.6a16 16 0 0 0 5.55 5.55l.96-.96a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/>
+                          </svg>
+                          {b.telephone}
+                        </span>
+                      )}
+                    </div>
+                  </div>
+                  <div className="bf-card__pct" style={{ color: progressColor, background: `${progressColor}15` }}>
+                    {pct.toFixed(0)}%
+                  </div>
+                </div>
+
+                {/* PROGRESS */}
+                <div className="bf-prog">
+                  <div className="bf-prog__track">
+                    <div
+                      className="bf-prog__fill"
+                      style={{ width: `${pct}%`, background: progressColor }}
+                    />
+                  </div>
+                  <div className="bf-prog__labels">
+                    <span>
+                      <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                        <polyline points="20 6 9 17 4 12"/>
+                      </svg>
+                      {t('dashboardDonor.benef_collected')} {collected.toFixed(0)} DT
+                    </span>
+                    <span className="bf-prog__target">
+                      <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                        <circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="3"/>
+                      </svg>
+                      {t('dashboardDonor.benef_target')} {b.montant_a_collecter} DT
+                    </span>
+                  </div>
+                </div>
+
+                {/* AMOUNTS */}
+                <div className="bf-card__amounts">
+                  <div className="bf-amount">
+                    <span className="bf-amount__label">
+                      <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                        <circle cx="12" cy="12" r="10"/>
+                        <path d="M12 6v2m0 8v2M9.5 9.5A2.5 2.5 0 0 1 12 8h.5a2 2 0 0 1 0 4h-1a2 2 0 0 0 0 4h.5a2.5 2.5 0 0 0 2.5-2.5"/>
+                      </svg>
+                      {t('dashboardDonor.benef_to_collect')}
+                    </span>
+                    <span className="bf-amount__val">{b.montant_a_collecter} DT</span>
+                  </div>
+                  <div className="bf-amount bf-amount--accent">
+                    <span className="bf-amount__label">
+                      <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                        <line x1="12" y1="1" x2="12" y2="23"/>
+                        <path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/>
+                      </svg>
+                      {t('dashboardDonor.benef_remaining')}
+                    </span>
+                    <span className="bf-amount__val bf-amount__val--accent">{b.montant_restant} DT</span>
+                  </div>
+                </div>
+
+                {/* CTA */}
+                <button
+                  className={`bf-btn bf-btn--primary bf-btn--block ${isSelected ? 'bf-btn--selected' : ''}`}
+                  onClick={() => isSelected ? closeDonPanel() : openDonPanel(b)}
+                >
+                  {isSelected ? (
+                    <>
+                      <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5">
+                        <line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/>
+                      </svg>
+                      {t('dashboardDonor.btn_close_form')}
+                    </>
+                  ) : (
+                    <>
+                      <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2">
+                        <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/>
+                      </svg>
+                      {t('dashboardDonor.btn_donate')}
+                    </>
+                  )}
+                </button>
+              </div>
+            );
+          })}
+        </div>
+
+        {/* ── DON PANEL ── */}
+        <aside className={`bf-panel ${donPanelOpen && donTarget ? 'bf-panel--open' : ''}`}>
+          {!donPanelOpen || !donTarget ? (
+            <div className="bf-panel__idle">
+              <div className="bf-panel__idleIcon">
+                <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.3">
+                  <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/>
+                </svg>
+              </div>
+              <p className="bf-panel__idleTxt">{t('dashboardDonor.don_panel_idle')}</p>
+            </div>
+          ) : (
+            <form className="bf-don-form" onSubmit={submitInlineDon}>
+
+              {/* FORM HEADER */}
+              <div className="bf-don-form__head">
+                <div className="bf-don-form__avatar">
+                  {(donTarget.nom?.[0] || '?').toUpperCase()}
+                </div>
+                <div className="bf-don-form__meta">
+                  <span className="bf-don-form__label">{t('dashboardDonor.don_form_title')}</span>
+                  <span className="bf-don-form__name">{donTarget.nom} {donTarget.prenom}</span>
+                </div>
+                <button className="bf-don-form__close" type="button" onClick={closeDonPanel} disabled={donSubmitting}>
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5">
+                    <line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/>
+                  </svg>
+                </button>
+              </div>
+
+              {/* MINI PROGRESS */}
+              <div className="bf-don-prog">
+                <div className="bf-don-prog__row">
+                  <span className="bf-don-prog__label">
+                    <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                      <polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/>
+                    </svg>
+                    {t('dashboardDonor.don_progress')}
+                  </span>
+                  <span className="bf-don-prog__val">
+                    <strong>{getProgressPercent(donTarget).toFixed(0)}%</strong>
+                    &nbsp;—&nbsp;{Number(donTarget.montant_restant || 0).toFixed(0)} DT {t('dashboardDonor.don_remaining')}
+                  </span>
+                </div>
+                <div className="bf-don-prog__track">
+                  <div className="bf-don-prog__fill" style={{ width: `${getProgressPercent(donTarget)}%` }} />
+                </div>
+              </div>
+
+              {/* ALERTS */}
+              {donError && (
+                <div className="bf-alert bf-alert--error">
+                  <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                    <circle cx="12" cy="12" r="10"/>
+                    <line x1="12" y1="8" x2="12" y2="12"/>
+                    <line x1="12" y1="16" x2="12.01" y2="16"/>
+                  </svg>
+                  {donError}
+                </div>
+              )}
+              {donSuccess && (
+                <div className="bf-alert bf-alert--success">
+                  <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5">
+                    <polyline points="20 6 9 17 4 12"/>
+                  </svg>
+                  {donSuccess}
+                </div>
+              )}
+
+              {/* QUICK AMOUNTS */}
+              <div className="bf-don-section">
+                <div className="bf-don-section__label">
+                  <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                    <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/>
+                  </svg>
+                  {t('dashboardDonor.don_label_quick')}
+                </div>
+                <div className="bf-quick">
+                  {QUICK_AMOUNTS.map((a) => (
+                    <button
+                      key={a}
+                      type="button"
+                      className={`bf-quick__btn ${String(a) === String(donMontant) ? 'bf-quick__btn--active' : ''}`}
+                      onClick={() => setDonMontant(String(a))}
+                      disabled={donSubmitting}
+                    >
+                      {a}<span>DT</span>
+                    </button>
+                  ))}
+                </div>
+              </div>
+
+              {/* CUSTOM AMOUNT */}
+              <div className="bf-don-section">
+                <div className="bf-don-section__label">
+                  <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                    <line x1="12" y1="1" x2="12" y2="23"/>
+                    <path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/>
+                  </svg>
+                  {t('dashboardDonor.don_label_custom')}
+                </div>
+                <div className="bf-input-wrap">
+                  <input
+                    className="bf-input"
+                    type="number"
+                    min="1"
+                    value={donMontant}
+                    onChange={(e) => setDonMontant(e.target.value)}
+                    placeholder="0"
+                    disabled={donSubmitting}
+                  />
+                  <span className="bf-input-suffix">DT</span>
+                </div>
+              </div>
+
+              {/* BANK NUMBER */}
+              <div className="bf-don-section">
+                <div className="bf-don-section__label">
+                  <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                    <rect x="1" y="4" width="22" height="16" rx="2" ry="2"/>
+                    <line x1="1" y1="10" x2="23" y2="10"/>
+                  </svg>
+                  {t('dashboardDonor.don_label_bank')}
+                </div>
+                <div className="bf-input-wrap">
+                  <input
+                    className="bf-input bf-input--mono"
+                    type="text"
+                    value={donNumeroBancaire}
+                    onChange={(e) => setDonNumeroBancaire(e.target.value)}
+                    placeholder="XXXX XXXX XXXX XXXX"
+                    disabled={donSubmitting}
+                  />
+                </div>
+              </div>
+
+              {/* MESSAGE */}
+              <div className="bf-don-section">
+                <div className="bf-don-section__label">
+                  <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                    <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/>
+                  </svg>
+                  {t('dashboardDonor.don_label_msg')}
+                  <span className="bf-don-section__opt">{t('dashboardDonor.don_msg_opt')}</span>
+                </div>
+                <input
+                  className="bf-input"
+                  type="text"
+                  value={donMessage}
+                  onChange={(e) => setDonMessage(e.target.value)}
+                  placeholder={t('dashboardDonor.don_msg_ph')}
+                  maxLength={250}
+                  disabled={donSubmitting}
+                />
+              </div>
+
+              {/* SUBMIT */}
+              <button
+                className="bf-btn bf-btn--submit"
+                type="submit"
+                disabled={donSubmitting || !donMontant}
+              >
+                {donSubmitting ? (
+                  <>
+                    <span className="bf-spinner" />
+                    {t('dashboardDonor.btn_processing')}
+                  </>
+                ) : (
+                  <>
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2">
+                      <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/>
+                    </svg>
+                    {donMontant
+                      ? `${t('dashboardDonor.btn_confirm_don').replace('le don', '')} ${donMontant} DT`
+                      : t('dashboardDonor.btn_confirm_don')
+                    }
+                  </>
                 )}
+              </button>
+
+              {/* SECURE NOTE */}
+              <div className="bf-don-secure">
+                <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                  <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+                </svg>
+                {t('dashboardDonor.don_secure')}
+              </div>
+
+            </form>
+          )}
+        </aside>
+
+      </div>
+    )}
+  </div>
+)}
               </section>
             </>
           )}

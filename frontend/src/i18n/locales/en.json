@@ -676,8 +676,43 @@
     "error_title": "Error",
     "server_error": "Server error",
     "file_too_large_title": "File too large",
-    "file_too_large_text": "Maximum 5 MB per file."
+    "file_too_large_text": "Maximum 5 MB per file.",
+    "close": "Close",
+    "loading": "Loading..."
 
+  },
+   "map": {
+    "title": "Associations Map",
+    "located": "located out of",
+    "registered": "registered",
+    "loading": "Loading map…",
+    "ariaLabel": "Interactive associations map"
+  },
+  "search": {
+    "placeholder": "Search an association...",
+    "label": "Search",
+    "clear": "Clear search"
+  },
+  "categories": {
+    "all": "All",
+    "Éducation": "Education",
+    "Santé": "Health",
+    "Environnement": "Environment",
+    "Humanitaire": "Humanitarian",
+    "Culture": "Culture",
+    "Sport": "Sports",
+    "Social": "Social"
+  },
+  "sidebar": {
+    "expand": "Open panel",
+    "collapse": "Close panel",
+    "results": "result",
+    "results_plural": "results",
+    "empty": "No associations found"
+  },
+  "assoc": {
+    "noLocation": "No GPS coordinates",
+    "viewProfile": "View profile"
   },
    "dashboardLawyer": {
     "sidebar_requests": "Requests",
