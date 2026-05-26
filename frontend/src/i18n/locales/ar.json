@@ -19,7 +19,8 @@
     "beneficiaries": "المستفيدون",
     "donors": "المتبرعون",
     "profile": "الملف الشخصي",
-    "settings": "الإعدادات"
+    "settings": "الإعدادات",
+    "card": "الموقع"
   },
   "stats": {
     "beneficiaries": "المستفيدون المساعَدون",
@@ -160,7 +161,9 @@
     "empty_sub": "عد قريباً لاكتشاف الأبطال الأوائل!",
     "contenders_title": "والباقي...",
     "stats_dons": "تبرعات",
-    "stats_avg": "متوسط"
+    "stats_avg": "متوسط",
+        "tagline": "أبطال الكرم الذين يصنعون الفرق"
+
   },
   "register": {
     "visual_badge": "انضم إلى الحركة",

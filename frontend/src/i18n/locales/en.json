@@ -19,7 +19,8 @@
     "beneficiaries": "Beneficiaries",
     "donors": "Donors",
     "profile": "Profile",
-    "settings": "Settings"
+    "settings": "Settings",
+    "card": "Map Location"
   },
   "stats": {
     "beneficiaries": "Beneficiaries helped",
@@ -188,7 +189,9 @@
     "empty_sub": "Come back soon to discover the first heroes!",
     "contenders_title": "And the runners-up...",
     "stats_dons": "donations",
-    "stats_avg": "average"
+    "stats_avg": "average",
+        "tagline": "The heroes of generosity who make a difference"
+
   },
     "demande": {
     "hero_badge": "Beneficiary Space",

@@ -232,7 +232,7 @@ const Navbar = () => {
         <div className="nav-links">
           <Link to="/" className="nav-link">{t('nav.home')}</Link>
           <Link to="/about" className="nav-link">{t('nav.about')}</Link>
-          <Link to="/carte" className="nav-link"> Carte</Link>
+          <Link to="/carte" className="nav-link"> {t('nav.card')}</Link>
 
           {/* Dropdown Demande */}
           <div className="nav-dropdown" ref={demandesDesktopRef}>

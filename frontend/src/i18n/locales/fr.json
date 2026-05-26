@@ -19,7 +19,8 @@
     "beneficiaries": "Bénéficiaires",
     "donations": "Dons",
     "profile": "Profil",
-    "settings": "Paramètres"
+    "settings": "Paramètres",
+    "card": "Localisation"
   },
   "stats": {
     "beneficiaries": "Bénéficiaires aidés",
@@ -160,7 +161,9 @@
     "empty_sub": "Revenez bientôt pour découvrir les premiers héros !",
     "contenders_title": "Et les suivants...",
     "stats_dons": "dons",
-    "stats_avg": "moyenne"
+    "stats_avg": "moyenne",
+        "tagline": "Les héros de la générosité qui font la différence"
+
   },
   "contact": {
     "tag": "Rejoignez-nous",
