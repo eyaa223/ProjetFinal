@@ -470,41 +470,28 @@ export const getTopDonneursPublic = async (req, res) => {
       SELECT 
         u.id,
         u.nom,
-        u.email,
-        SUM(d.montant) AS total_dons
+        COUNT(d.id) AS nombre_dons
       FROM donations d
       JOIN utilisateurs u ON u.id = d.donneur_id
       WHERE MONTH(d.created_at) = MONTH(CURRENT_DATE())
-        AND YEAR(d.created_at) = YEAR(CURRENT_DATE())
-      GROUP BY d.donneur_id
-      ORDER BY total_dons DESC
+        AND YEAR(d.created_at)  = YEAR(CURRENT_DATE())
+      GROUP BY u.id, u.nom
+      ORDER BY nombre_dons DESC
       LIMIT 3
     `);
 
-    const result = rows.map((d, index) => {
-      let badge = "";
-      let medal = "";
-
-      if (index === 0) {
-        badge = "Donneur du mois";
-        medal = "🥇";
-      } else if (index === 1) {
-        badge = "Deuxième place";
-        medal = "🥈";
-      } else if (index === 2) {
-        badge = "Troisième place";
-        medal = "🥉";
-      }
-
-      return {
-        id: d.id,
-        nom: d.nom,
-        total_dons: d.total_dons,
-        rank: index + 1,
-        badge,
-        medal,
-      };
-    });
+    const result = rows.map((d, index) => ({
+      id:          d.id,
+      nom:         d.nom,
+      nombre_dons: Number(d.nombre_dons),
+      rank:        index + 1,
+      badge:
+        index === 0 ? "1er Donneur du mois" :
+        index === 1 ? "2ème place" : "3ème place",
+      medal:
+        index === 0 ? "🥇" :
+        index === 1 ? "🥈" : "🥉",
+    }));
 
     res.json(result);
   } catch (err) {

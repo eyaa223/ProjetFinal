@@ -130,7 +130,7 @@ const AboutUs = () => {
   ];
 
   const storyStats = [
-    { value: '2020', label: t('about.story.stat_year') },
+    { value: '2026', label: t('about.story.stat_year') },
     { value: '200+', label: t('about.story.stat_partners') },
     { value: '50K+', label: t('about.story.stat_beneficiaries') },
   ];

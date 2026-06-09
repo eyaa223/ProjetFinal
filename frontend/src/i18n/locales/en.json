@@ -44,9 +44,7 @@
     "story": {
       "tag": "Our Origin",
       "title": "The Birth of a <span>Vision</span>",
-      "quote": "\"It all started with a heartbreaking encounter: Yasmine, 9 years old, sharing just one meal a day with her mother in a disadvantaged neighborhood of Tunis.\"",
-      "para1": "That day, we realized that <strong>generosity exists everywhere</strong> — but often lacks bridges to reach those in need.",
-      "para2": "Don'Act was born from this conviction: <strong>every person deserves to be seen, heard, and supported</strong>. We are not just a donation platform — we are a living ecosystem where generous hearts meet helping hands, with absolute transparency.",
+      "quote": "\"It all started with a simple observation: despite the generosity of many people, donations do not always reach those who need them most effectively. That is why we created Don’Act, a platform that leverages technology to connect donors, associations, and beneficiaries in a transparent, secure, and accessible environment.",
       "stat_year": "Year founded",
       "stat_partners": "200+",
       "stat_beneficiaries": "50K+",
@@ -92,7 +90,7 @@
   },
   "home": {
     "hero": {
-      "badge": "#1 Platform in Tunisia",
+      "badge": "Your donation is another inspiration",
       "title_line1": "Give hope,",
       "title_line2": "Transform lives.",
       "subtitle": "Join the community redefining solidarity. Total transparency, real impact, and direct connection with those in need.",

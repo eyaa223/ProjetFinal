@@ -233,6 +233,10 @@ const Navbar = () => {
           <Link to="/" className="nav-link">{t('nav.home')}</Link>
           <Link to="/about" className="nav-link">{t('nav.about')}</Link>
           <Link to="/carte" className="nav-link"> {t('nav.card')}</Link>
+          <Link to="/top-donateurs" className="nav-link nav-link--icon" title="Top Donneurs">
+                <Trophy size={17} />
+                <span>{t('nav.top_donors')}</span>
+              </Link>
 
           {/* Dropdown Demande */}
           <div className="nav-dropdown" ref={demandesDesktopRef}>
@@ -268,11 +272,6 @@ const Navbar = () => {
                 <LayoutDashboard size={17} />
                 <span>{t('nav.dashboard')}</span>
               </button>
-
-              <Link to="/top-donateurs" className="nav-link nav-link--icon" title="Top Donneurs">
-                <Trophy size={17} />
-                <span>{t('nav.top_donors')}</span>
-              </Link>
 
               {/* ── Notifications ── */}
               <div className="nav-notif" ref={notifRef}>

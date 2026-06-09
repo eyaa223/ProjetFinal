@@ -44,7 +44,7 @@
     "story": {
       "tag": "Notre Origine",
       "title": "La Naissance d'une <span>Vision</span>",
-      "quote": "\"Tout a commencé par une rencontre bouleversante : Yasmine, 9 ans, partageant un seul repas par jour avec sa mère dans un quartier défavorisé de Tunis.\"",
+      "quote": "\"Tout a commencé par un constat simple : malgré la générosité de nombreuses personnes, les dons n’atteignent pas toujours efficacement ceux qui en ont besoin. Nous avons donc créé Don’Act, une plateforme mettant la technologie au service de la solidarité pour connecter donateurs, associations et bénéficiaires dans un environnement transparent, sécurisé et accessible.\"",
       "para1": "Ce jour-là, nous avons compris que <strong>la générosité existe partout</strong> — mais manque souvent de ponts pour atteindre ceux qui en ont besoin.",
       "para2": "Don'Act est né de cette conviction : <strong>chaque personne mérite d'être vue, entendue et soutenue</strong>. Nous ne sommes pas une simple plateforme de dons — nous sommes un écosystème vivant où les cœurs généreux rencontrent les mains tendues, avec transparence absolue.",
       "stat_year": "Année de création",
@@ -92,7 +92,7 @@
   },
   "home": {
     "hero": {
-      "badge": "Plateforme #1 en Tunisie",
+      "badge": "Donnez avec le cœur, inspirez le monde",
       "title_line1": "Donnez de l'espoir,",
       "title_line2": "Transformez des vies.",
       "subtitle": "Rejoignez la communauté qui redéfinit la solidarité. Transparence totale, impact réel et connexion directe avec ceux qui en ont besoin.",

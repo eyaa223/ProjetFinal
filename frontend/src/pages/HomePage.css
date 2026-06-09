@@ -1,8 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Sora:ital,wght@0,700;0,800;1,700&display=swap');
 
-/* ═══════════════════════════════════
-   THEME VARIABLES & PALETTE
-═══════════════════════════════════ */
 :root {
   --hp-navy:        #0f172a;
   --hp-navy-light:  #1e293b;
@@ -10,7 +7,6 @@
   --hp-sky:         #38bdf8;
   --hp-purple:      #7c3aed;
   --hp-white:       #ffffff;
-
   --hp-gray-50:     #f8fafc;
   --hp-gray-100:    #f1f5f9;
   --hp-gray-200:    #e2e8f0;
@@ -19,28 +15,24 @@
   --hp-gray-600:    #475569;
   --hp-gray-700:    #334155;
   --hp-gray-900:    #0f172a;
-
   --hp-font:        'Plus Jakarta Sans', sans-serif;
   --hp-display:     'Sora', sans-serif;
   --hp-section-pad: clamp(72px, 10vw, 120px);
   --hp-container:   1240px;
   --hp-radius:      16px;
   --hp-radius-lg:   24px;
-
+  
   /* ── SEMANTIC COLORS LIGHT ── */
   --bg-body:          #ffffff;
   --bg-section-alt:   #f8fafc;
   --bg-card:          #ffffff;
   --bg-navy:          var(--hp-navy);
-
   --text-main:        var(--hp-gray-700);
   --text-muted:       var(--hp-gray-500);
   --text-heading:     var(--hp-navy);
   --text-on-accent:   #ffffff;
-
   --border-color:     var(--hp-gray-100);
   --border-hover:     var(--hp-gray-200);
-
   --shadow-sm:        0 4px 16px rgba(0,0,0,0.04);
   --shadow-lg:        0 24px 64px rgba(37,99,235,0.12), 0 8px 24px rgba(0,0,0,0.08);
   --shadow-card:      0 1px 3px rgba(0,0,0,0.04), 0 8px 24px rgba(0,0,0,0.06);
@@ -131,25 +123,26 @@
 .hp-hero-overlay { position: absolute; inset: 0; pointer-events: none; }
 
 .hp-hero-overlay--dark {
-  background: rgba(8, 14, 30, 0.55);
+  background: rgba(183, 202, 250, 0);
 }
+
 .hp-hero-overlay--gradient {
   background: linear-gradient(
     170deg,
-    rgba(8, 14, 30, 0.15) 0%,
-    rgba(8, 14, 30, 0.55) 50%,
-    rgba(8, 14, 30, 0.93) 100%
-  );
-}
-.hp-hero-overlay--vignette {
-  background: radial-gradient(
-    ellipse 80% 80% at 50% 50%,
-    transparent 35%,
-    rgba(8, 14, 30, 0.7) 100%
+    rgba(6, 11, 24, 0.25) 0%,
+    rgba(6, 11, 24, 0.65) 50%,
+    rgba(6, 11, 24, 0.95) 100%
   );
 }
 
-/* Grain animé */
+.hp-hero-overlay--vignette {
+  background: radial-gradient(
+    ellipse 80% 80% at 50% 50%,
+    transparent 30%,
+    rgba(6, 11, 24, 0.8) 100%
+  );
+}
+
 .hp-hero-grain {
   position: absolute;
   inset: 0;
@@ -169,7 +162,6 @@
   100% { transform: translate(-1px,-2px); }
 }
 
-/* Ligne décorative lumineuse en bas du hero */
 .hp-hero::after {
   content: '';
   position: absolute;
@@ -193,15 +185,18 @@
   gap: 30px;
 }
 
+/* ═══════════════════════════════════
+   BADGE HERO - TEXTE BLANC (2 thèmes)
+═══════════════════════════════════ */
 .hp-hero-badge {
   display: inline-flex;
   align-items: center;
   gap: 8px;
-  background: rgba(56, 189, 248, 0.12);
-  border: 1px solid rgba(56, 189, 248, 0.28);
+  background: rgba(56, 189, 248, 0.15);
+  border: 1px solid rgba(56, 189, 248, 0.35);
   backdrop-filter: blur(16px);
   -webkit-backdrop-filter: blur(16px);
-  color: var(--hp-sky);
+  color: #ffffff !important;
   border-radius: 30px;
   padding: 8px 20px;
   font-size: 11.5px;
@@ -209,6 +204,10 @@
   letter-spacing: 1px;
   text-transform: uppercase;
   animation: badgeFadeIn 1s cubic-bezier(0.22,1,0.36,1) 0.3s both;
+}
+
+.hp-hero-badge span {
+  color: #ffffff !important;
 }
 
 @keyframes badgeFadeIn {
@@ -220,10 +219,11 @@
   font-family: var(--hp-display);
   font-size: clamp(40px, 7vw, 82px);
   font-weight: 800;
-  color: var(--hp-white);
+  color: #ffffff !important;
   line-height: 1.06;
   letter-spacing: -2px;
   animation: titleFadeIn 1s cubic-bezier(0.22,1,0.36,1) 0.5s both;
+  text-shadow: 0 2px 20px rgba(0,0,0,0.4);
 }
 
 @keyframes titleFadeIn {
@@ -241,10 +241,11 @@
 
 .hp-hero-sub {
   font-size: clamp(14px, 2vw, 17.5px);
-  color: rgba(255,255,255,0.72);
+  color: rgba(255,255,255,0.9) !important;
   line-height: 1.75;
   max-width: 600px;
   animation: titleFadeIn 1s cubic-bezier(0.22,1,0.36,1) 0.65s both;
+  text-shadow: 0 1px 10px rgba(0,0,0,0.3);
 }
 
 .hp-hero-actions {
@@ -255,6 +256,9 @@
   animation: titleFadeIn 1s cubic-bezier(0.22,1,0.36,1) 0.8s both;
 }
 
+/* ═══════════════════════════════════
+   TRUST BADGES - TEXTE BLANC (2 thèmes)
+═══════════════════════════════════ */
 .hp-hero-trust {
   display: flex;
   align-items: center;
@@ -262,19 +266,20 @@
   gap: 12px;
   justify-content: center;
   font-size: 12px;
-  color: rgba(255,255,255,0.5);
+  color: rgba(255,255,255,0.85) !important;
   animation: titleFadeIn 1s cubic-bezier(0.22,1,0.36,1) 0.95s both;
 }
 .hp-hero-trust span {
   display: flex;
   align-items: center;
   gap: 5px;
+  color: rgba(255,255,255,0.85) !important;
 }
 .hp-trust-sep {
   width: 3px;
   height: 3px;
   border-radius: 50%;
-  background: rgba(255,255,255,0.25);
+  background: rgba(255,255,255,0.4);
   display: block;
 }
 
@@ -290,15 +295,15 @@
   width: 46px;
   height: 46px;
   border-radius: 50%;
-  background: rgba(255,255,255,0.08);
-  border: 1px solid rgba(255,255,255,0.18);
+  background: rgba(255,255,255,0.12);
+  border: 1px solid rgba(255,255,255,0.25);
   backdrop-filter: blur(10px);
-  color: rgba(255,255,255,0.7);
+  color: rgba(255,255,255,0.9);
   cursor: pointer;
   animation: scrollBounce 2.2s ease-in-out infinite;
   transition: background 0.2s, color 0.2s;
 }
-.hp-hero-scroll:hover { background: rgba(255,255,255,0.18); color: #fff; }
+.hp-hero-scroll:hover { background: rgba(255,255,255,0.25); color: #fff; }
 
 @keyframes scrollBounce {
   0%, 100% { transform: translateX(-50%) translateY(0); opacity: 0.7; }
@@ -327,7 +332,6 @@
   overflow: hidden;
 }
 
-/* Shimmer effect on hover */
 .hp-btn::after {
   content: '';
   position: absolute;
@@ -355,11 +359,11 @@
 
 .hp-btn--ghost {
   background: rgba(255,255,255,0.1);
-  color: rgba(255,255,255,0.9);
-  border: 1px solid rgba(255,255,255,0.2);
+  color: rgba(255,255,255,0.95);
+  border: 1px solid rgba(255,255,255,0.25);
   backdrop-filter: blur(10px);
 }
-.hp-btn--ghost:hover { background: rgba(255,255,255,0.18); border-color: rgba(255,255,255,0.35); }
+.hp-btn--ghost:hover { background: rgba(255,255,255,0.2); border-color: rgba(255,255,255,0.4); }
 
 .hp-btn--outline {
   background: transparent;
@@ -390,10 +394,10 @@
 
 .hp-btn--ghost-white {
   background: rgba(255,255,255,0.1);
-  color: rgba(255,255,255,0.88);
-  border: 1px solid rgba(255,255,255,0.22);
+  color: rgba(255,255,255,0.95);
+  border: 1px solid rgba(255,255,255,0.25);
 }
-.hp-btn--ghost-white:hover { background: rgba(255,255,255,0.2); }
+.hp-btn--ghost-white:hover { background: rgba(255,255,255,0.22); }
 
 /* ═══════════════════════════════════
    STATS
@@ -407,7 +411,6 @@
   overflow: hidden;
 }
 
-/* Lueur ambiante derrière les stats */
 .hp-stats::before {
   content: '';
   position: absolute;
@@ -443,7 +446,6 @@
 .hp-stat:last-child { border-right: none; }
 .hp-stat:hover { background: rgba(56,189,248,0.04); }
 
-/* Ligne lumineuse apparaissant au hover */
 .hp-stat::after {
   content: '';
   position: absolute;
@@ -490,7 +492,7 @@
 
 .hp-stat-label {
   font-size: 12.5px;
-  color: rgba(255,255,255,0.45);
+  color: rgba(255,255,255,0.5);
   font-weight: 500;
   letter-spacing: 0.3px;
 }
@@ -504,7 +506,6 @@
   position: relative;
 }
 
-/* Deco cercle en fond */
 .hp-showcase::before {
   content: '';
   position: absolute;
@@ -536,7 +537,6 @@
   box-shadow: var(--shadow-lg);
 }
 
-/* Bordure animée */
 .hp-showcase-img-wrap::before {
   content: '';
   position: absolute;
@@ -567,7 +567,6 @@
   z-index: 1;
 }
 
-/* Badges flottants décoratifs */
 .hp-showcase-img-wrap::after {
   content: '';
   position: absolute;
@@ -654,7 +653,6 @@
   pointer-events: none;
 }
 
-/* Grille pointillée subtile en fond */
 .hp-why::after {
   content: '';
   position: absolute;
@@ -705,7 +703,6 @@
               border-color 0.3s ease;
 }
 
-/* Fond coloré animé au hover */
 .hp-why-card::before {
   content: '';
   position: absolute;
@@ -716,7 +713,6 @@
 }
 .hp-why-card:hover::before { opacity: 1; }
 
-/* Ligne colorée en haut de la carte */
 .hp-why-card::after {
   content: '';
   position: absolute;
@@ -804,7 +800,7 @@
 .hp-why-card:hover .hp-why-arrow { opacity: 1; transform: translateX(0); }
 
 /* ═══════════════════════════════════
-   CTA
+   CTA - TEXTE BLANC (2 thèmes)
 ═══════════════════════════════════ */
 .hp-cta {
   position: relative;
@@ -814,7 +810,6 @@
   text-align: center;
 }
 
-/* Grille de points en fond */
 .hp-cta::before {
   content: '';
   position: absolute;
@@ -878,7 +873,7 @@
   font-family: var(--hp-display);
   font-size: clamp(28px, 5vw, 52px);
   font-weight: 800;
-  color: var(--hp-white);
+  color: #ffffff !important;
   line-height: 1.1;
   letter-spacing: -1px;
 }
@@ -892,7 +887,7 @@
 
 .hp-cta-sub {
   font-size: 16px;
-  color: rgba(255,255,255,0.65);
+  color: rgba(255,255,255,0.85) !important;
   line-height: 1.75;
   max-width: 520px;
 }
@@ -909,7 +904,7 @@
   align-items: center;
   gap: 7px;
   font-size: 11.5px;
-  color: rgba(255,255,255,0.35);
+  color: rgba(255,255,255,0.6) !important;
   letter-spacing: 0.3px;
 }
 
@@ -923,7 +918,6 @@
   position: relative;
 }
 
-/* Ligne lumineuse en haut du footer */
 .hp-footer::before {
   content: '';
   position: absolute;
@@ -958,7 +952,7 @@
 
 .hp-footer-tag {
   font-size: 12px;
-  color: rgba(255,255,255,0.35);
+  color: rgba(255,255,255,0.4);
   margin-top: 3px;
   letter-spacing: 0.2px;
 }
@@ -971,7 +965,7 @@
   background: none;
   border: none;
   padding: 7px 14px;
-  color: rgba(255,255,255,0.45);
+  color: rgba(255,255,255,0.5);
   font-family: var(--hp-font);
   font-size: 13px;
   cursor: pointer;
@@ -981,7 +975,7 @@
 }
 .hp-footer-links button:hover {
   color: var(--hp-white);
-  background: rgba(255,255,255,0.08);
+  background: rgba(255,255,255,0.1);
 }
 
 /* ═══════════════════════════════════
