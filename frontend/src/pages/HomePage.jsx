@@ -269,7 +269,7 @@ const HomePage = () => {
           <nav className="hp-footer-links">
             <button onClick={() => navigate('/associations')}>{t('nav.associations')}</button>
             <button onClick={() => navigate('/about')}>{t('nav.about')}</button>
-            <button onClick={() => navigate('/about')}>{t('nav.contact')}</button>
+            <button onClick={() => navigate('/feedback')}>{t('nav.contact')}</button>
           </nav>
         </div>
       </footer>

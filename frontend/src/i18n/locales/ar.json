@@ -2,7 +2,7 @@
   "nav": {
     "home": "الرئيسية",
     "about": "من نحن",
-    "contact": "اتصل بنا",
+    "contact": "ملاحظات وآراء المستخدمين ",
     "demande": "طلب",
     "demande_assoc": "طلب جمعية",
     "demande_aide": "طلب مساعدة",
@@ -20,7 +20,81 @@
     "donors": "المتبرعون",
     "profile": "الملف الشخصي",
     "settings": "الإعدادات",
-    "card": "الموقع"
+    "card": "الموقع",
+    "feedback": "التقييمات "
+  },
+   "feedback": {
+    "hero": {
+      "eyebrow": "Don'Act · التعليقات",
+      "title": "رأيك",
+      "titleHighlight": "يشكل المنصة",
+      "subtitle": "كل مراجعة تُقرأ وتُترجم إلى تحسينات ملموسة.",
+      "statsReviews": "التعليقات المستلمة",
+      "statsRating": "التقييم المتوسط"
+    },
+    "form": {
+      "title": "اترك مراجعة",
+      "connectedAs": "مسجل الدخول · <strong>{{name}}</strong>",
+      "anonymousInfo": "مسجل الدخول أو مجهول — جميع التعليقات مهمة",
+      "roleLabel": "دورك",
+      "ratingLabel": "التقييم",
+      "nameLabel": "اسمك",
+      "nameOptional": "(اختياري)",
+      "namePlaceholder": "مثال: سارة ر.، محمد ك.، جمعية بركة…",
+      "anonymousBtn": "مجهول",
+      "anonymousActive": "مجهول ✓",
+      "messageLabel": "الرسالة",
+      "messagePlaceholder": "صف تجربتك، اقتراحاتك أو ملاحظاتك…",
+      "charCount": "{{count}}/500",
+      "improveBtn": "تحسين بالذكاء الاصطناعي",
+      "improving": "جاري التحسين…",
+      "submitBtn": "إرسال",
+      "submitting": "جاري الإرسال…"
+    },
+    "roles": {
+      "Donneur": "متبرع",
+      "Beneficiaire": "مستفيد",
+      "Association": "جمعية",
+      "Visiteur": "زائر"
+    },
+    "ratings": {
+      "1": "سيء",
+      "2": "غير راضٍ",
+      "3": "متوسط",
+      "4": "راضٍ",
+      "5": "ممتاز"
+    },
+    "list": {
+      "title": "تعليقات المجتمع",
+      "loading": "جاري التحميل…",
+      "empty": "لا توجد تعليقات بعد.",
+      "emptySub": "كن أول من يشارك!",
+      "aiImproved": "محسّن بالذكاء الاصطناعي",
+      "anonymous": "مجهول",
+      "timeNow": "الآن",
+      "timeMin": "{{count}} د",
+      "timeHour": "{{count}} س",
+      "timeDay": "{{count}} ي"
+    },
+    "ai": {
+      "successTitle": "✨ تم تحسين الرسالة",
+      "successText": "عبر {{model}}",
+      "errorTitle": "خطأ في الذكاء الاصطناعي",
+      "quotaTitle": "تم تجاوز حصة Gemini",
+      "quotaText": "أنشئ مفتاحًا جديدًا على <a href=\"https://aistudio.google.com/app/apikey\" target=\"_blank\" style=\"color:#A78BFA\">aistudio.google.com</a>",
+      "serviceUnavailable": "خدمة الذكاء الاصطناعي مزدحمة مؤقتًا. يرجى المحاولة مرة أخرى بعد قليل.",
+      "tooShort": "الرسالة قصيرة جدًا",
+      "tooShortText": "الحد الأدنى {{count}} حرف."
+    },
+    "submit": {
+      "successTitle": "🎉 شكرًا لك!",
+      "successText": "تم إرسال مراجعتك{{name}}!",
+      "successBtn": "رائع!",
+      "errorTitle": "خطأ"
+    },
+    "errors": {
+      "generic": "حدث خطأ. يرجى المحاولة مرة أخرى."
+    }
   },
   "stats": {
     "beneficiaries": "المستفيدون المساعَدون",

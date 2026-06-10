@@ -2,7 +2,7 @@
   "nav": {
     "home": "Accueil",
     "about": "À propos",
-    "contact": "Contact",
+    "contact": "Avis",
     "demande": "Demande",
     "demande_assoc": "Demande Association",
     "demande_aide": "Demande d'aide",
@@ -20,7 +20,8 @@
     "donations": "Dons",
     "profile": "Profil",
     "settings": "Paramètres",
-    "card": "Localisation"
+    "card": "Localisation",
+    "feedback": "Avis"
   },
   "stats": {
     "beneficiaries": "Bénéficiaires aidés",
@@ -88,6 +89,79 @@
       "subtitle": "Votre premier pas vers un impact réel commence ici. Rejoignez des milliers de personnes qui ont déjà choisi d'agir.",
       "btn": "Commencer maintenant",
       "note": "Paiement sécurisé · 100% transparent · Impact garanti"
+    }
+  },
+  "feedback": {
+    "hero": {
+      "eyebrow": "Don'Act · Feedback",
+      "title": "Votre avis",
+      "titleHighlight": "façonne la plateforme",
+      "subtitle": "Chaque retour est lu et traduit en amélioration concrète.",
+      "statsReviews": "avis reçus",
+      "statsRating": "note moyenne"
+    },
+    "form": {
+      "title": "Laisser un avis",
+      "connectedAs": "Connecté · <strong>{{name}}</strong>",
+      "anonymousInfo": "Connecté ou anonyme — tous les avis comptent",
+      "roleLabel": "Votre rôle",
+      "ratingLabel": "Note",
+      "nameLabel": "Votre nom",
+      "nameOptional": "(optionnel)",
+      "namePlaceholder": "Ex : Sarah R., Mohamed K., Asso Baraka…",
+      "anonymousBtn": "Anonyme",
+      "anonymousActive": "Anonyme ✓",
+      "messageLabel": "Message",
+      "messagePlaceholder": "Décrivez votre expérience, vos suggestions ou observations…",
+      "charCount": "{{count}}/500",
+      "improveBtn": "Améliorer avec l'IA",
+      "improving": "Amélioration…",
+      "submitBtn": "Envoyer",
+      "submitting": "Envoi…"
+    },
+    "roles": {
+      "Donneur": "Donneur",
+      "Beneficiaire": "Bénéficiaire",
+      "Association": "Association",
+      "Visiteur": "Visiteur"
+    },
+    "ratings": {
+      "1": "Mauvais",
+      "2": "Insatisfaisant",
+      "3": "Moyen",
+      "4": "Satisfaisant",
+      "5": "Excellent"
+    },
+    "list": {
+      "title": "Avis de la communauté",
+      "loading": "Chargement…",
+      "empty": "Aucun avis pour le moment.",
+      "emptySub": "Soyez le premier à partager !",
+      "aiImproved": "amélioré par IA",
+      "anonymous": "Anonyme",
+      "timeNow": "À l'instant",
+      "timeMin": "{{count}} min",
+      "timeHour": "{{count}} h",
+      "timeDay": "{{count}} j"
+    },
+    "ai": {
+      "successTitle": "✨ Message amélioré",
+      "successText": "Via {{model}}",
+      "errorTitle": "Erreur IA",
+      "quotaTitle": "Quota Gemini dépassé",
+      "quotaText": "Créez une nouvelle clé sur <a href=\"https://aistudio.google.com/app/apikey\" target=\"_blank\" style=\"color:#A78BFA\">aistudio.google.com</a>",
+      "serviceUnavailable": "Service IA temporairement surchargé. Veuillez réessayer dans quelques instants.",
+      "tooShort": "Message trop court",
+      "tooShortText": "Minimum {{count}} caractères."
+    },
+    "submit": {
+      "successTitle": "🎉 Merci !",
+      "successText": "Votre avis a été envoyé{{name}} !",
+      "successBtn": "Super !",
+      "errorTitle": "Erreur"
+    },
+    "errors": {
+      "generic": "Une erreur est survenue. Veuillez réessayer."
     }
   },
   "home": {

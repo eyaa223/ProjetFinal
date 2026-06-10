@@ -2,7 +2,7 @@
   "nav": {
     "home": "Home",
     "about": "About",
-    "contact": "Contact",
+    "contact": "Feedback",
     "demande": "Request",
     "demande_assoc": "Association Request",
     "demande_aide": "Help Request",
@@ -20,7 +20,81 @@
     "donors": "Donors",
     "profile": "Profile",
     "settings": "Settings",
-    "card": "Map Location"
+    "card": "Map Location",
+    "feedback": "Feedback"
+  },
+   "feedback": {
+    "hero": {
+      "eyebrow": "Don'Act · Feedback",
+      "title": "Your feedback",
+      "titleHighlight": "shapes the platform",
+      "subtitle": "Every review is read and translated into concrete improvements.",
+      "statsReviews": "reviews received",
+      "statsRating": "average rating"
+    },
+    "form": {
+      "title": "Leave a review",
+      "connectedAs": "Logged in · <strong>{{name}}</strong>",
+      "anonymousInfo": "Logged in or anonymous — all reviews count",
+      "roleLabel": "Your role",
+      "ratingLabel": "Rating",
+      "nameLabel": "Your name",
+      "nameOptional": "(optional)",
+      "namePlaceholder": "Ex: Sarah R., Mohamed K., Baraka Org…",
+      "anonymousBtn": "Anonymous",
+      "anonymousActive": "Anonymous ✓",
+      "messageLabel": "Message",
+      "messagePlaceholder": "Describe your experience, suggestions or observations…",
+      "charCount": "{{count}}/500",
+      "improveBtn": "Improve with AI",
+      "improving": "Improving…",
+      "submitBtn": "Submit",
+      "submitting": "Submitting…"
+    },
+    "roles": {
+      "Donneur": "Donor",
+      "Beneficiaire": "Beneficiary",
+      "Association": "Association",
+      "Visiteur": "Visitor"
+    },
+    "ratings": {
+      "1": "Poor",
+      "2": "Unsatisfied",
+      "3": "Average",
+      "4": "Satisfied",
+      "5": "Excellent"
+    },
+    "list": {
+      "title": "Community reviews",
+      "loading": "Loading…",
+      "empty": "No reviews yet.",
+      "emptySub": "Be the first to share!",
+      "aiImproved": "improved by AI",
+      "anonymous": "Anonymous",
+      "timeNow": "Just now",
+      "timeMin": "{{count}} min",
+      "timeHour": "{{count}} h",
+      "timeDay": "{{count}} d"
+    },
+    "ai": {
+      "successTitle": "✨ Message improved",
+      "successText": "Via {{model}}",
+      "errorTitle": "AI Error",
+      "quotaTitle": "Gemini quota exceeded",
+      "quotaText": "Create a new key at <a href=\"https://aistudio.google.com/app/apikey\" target=\"_blank\" style=\"color:#A78BFA\">aistudio.google.com</a>",
+      "serviceUnavailable": "AI service temporarily overloaded. Please try again in a few moments.",
+      "tooShort": "Message too short",
+      "tooShortText": "Minimum {{count}} characters."
+    },
+    "submit": {
+      "successTitle": "🎉 Thank you!",
+      "successText": "Your review has been sent{{name}}!",
+      "successBtn": "Great!",
+      "errorTitle": "Error"
+    },
+    "errors": {
+      "generic": "An error occurred. Please try again."
+    }
   },
   "stats": {
     "beneficiaries": "Beneficiaries helped",

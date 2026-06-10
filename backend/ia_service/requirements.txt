@@ -3,3 +3,6 @@ mysql-connector-python
 pandas
 scikit-learn
 numpy
+
+google-generativeai>=0.3.0
+python-dotenv>=1.0.0

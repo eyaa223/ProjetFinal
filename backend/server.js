@@ -19,6 +19,7 @@ import categoriesRoutes from './routes/categories.js';
 import adminCategoriesRoutes from './routes/adminCategories.js';
 import iaRoutes from './routes/ia.js';
 import authPasswordReset from './routes/authPasswordReset.js';
+import feedbackRoutes from './routes/feedback.routes.js';
 dotenv.config();
 const app = express();
 // Parser JSON & form-data
@@ -62,6 +63,8 @@ app.use('/api/chatbot', chatRoutes);
 app.use('/categories', categoriesRoutes);
 app.use('/admin/categories', adminCategoriesRoutes);
 app.use('/api/ia', iaRoutes);
+app.use('/api/feedback', feedbackRoutes);
+
 // Test serveur
 app.get('/', (req, res) => {
   res.send('✅ Backend association sécurisé OK');

@@ -25,6 +25,7 @@ import Chatbot from './pages/Chatbot';
 import ChatbotWidget from './components/ChatbotWidget'; 
 import TopDonateurs from "./pages/TopDonateurs";
 import MapPage from './pages/MapPage';
+import FeedbackPage from './pages/FeedbackPage';
 
 
 function App() {
@@ -55,6 +56,7 @@ function App() {
 <Route path="/reset-password/:token" element={<ResetPassword />} />
             <Route path="/top-donateurs" element={<TopDonateurs />} />
 <Route path="/carte" element={<MapPage />} />
+            <Route path="/feedback" element={<FeedbackPage />} />
           </Routes>
         </Router>
       </ThemeProvider>

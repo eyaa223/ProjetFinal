@@ -7,7 +7,7 @@ import './Navbar.css';
 import { useTheme } from '../context/ThemeContext';
 import { 
   Sun, Moon, Bell, Search, LayoutDashboard, Trophy, LogOut, 
-  ChevronDown, Menu, X, Globe 
+  ChevronDown, Menu, X, Globe , Star
 } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 
@@ -237,6 +237,14 @@ const Navbar = () => {
                 <Trophy size={17} />
                 <span>{t('nav.top_donors')}</span>
               </Link>
+             <Link
+  to="/feedback"
+  className="nav-link nav-link--icon"
+  title={t('nav.feedback')}
+>
+  <Star size={18} />
+  <span>{t('nav.feedback')}</span>
+</Link>
 
           {/* Dropdown Demande */}
           <div className="nav-dropdown" ref={demandesDesktopRef}>
